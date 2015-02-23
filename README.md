@@ -19,7 +19,7 @@ If you use linux on this computer, please specify :
  - pros/cons of this combo
  - applied patches
  - distribution
- - anything you think is useful to know
+ - anything you think is useful to know  
  
  Thanks to contributors !
  
