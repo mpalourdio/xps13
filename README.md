@@ -23,7 +23,7 @@ If you (are able to) use linux on this computer, please specify :
  - distribution
  - anything you think is useful to know  
  
- Thanks to contributors !
+Thanks to contributors !
  
 ##CONFIG 1  
  * Kernel: 3.16.0-30-generic (Ubuntu 14.10)
