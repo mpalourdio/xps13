@@ -9,7 +9,7 @@ Last update : **2015-02-23**
 [Patch for the touchpad] (http://lkml.iu.edu/hypermail/linux/kernel/1502.2/02389.html)  
 [XPS13 2015 drivers page] (http://www.dell.com/support/home/us/en/04/product-support/product/xps-13-9343-laptop/drivers)  
 [Dell XPS 13 2015 model 9343 on Ubuntu 15.04, dmidecode, lsusb, lspci] (https://gist.github.com/semenko/60015029e13c1de65ff6)  
-[Patch that you can apply to 3.18 or 3.19 kernels that eliminates the trackpad freeze (credits to major.io)] (https://bugzilla.redhat.com/attachment.cgi?id=990188)  
+[Patch that you can apply to 3.18 or 3.19 kernels that eliminates the trackpad freeze] (https://bugzilla.redhat.com/attachment.cgi?id=990188) by [@major] (https://github.com/major)  
 IRC : #xps13 (freenode)
 
 **Quote about the repeating keystroke issue (Author ?)**  
