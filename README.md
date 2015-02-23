@@ -3,10 +3,9 @@ Tips and tricks to make XPS13 2015 work with linux.
 
 Last update : 2015-02-23
 
-_Other resources :_
+**_Other resources :_**
 
-[major.io website] (https://major.io/2015/02/03/linux-support-dell-xps-13-9343-2015-model/)
-
+[major.io website] (https://major.io/2015/02/03/linux-support-dell-xps-13-9343-2015-model/)  
 [Barton's blog last update, announcing BIOS A01] (http://bartongeorge.net/2015/02/23/update-2-dell-xps-13-laptop-developer-edition-sputnik-gen-4/)
 
 For the moment, linux support on DELL XPS13 2015 is not at its best (hmm). The different encountered problems can be :
