@@ -2,19 +2,18 @@
 Tips and tricks to make XPS13 2015 work with linux.  
 Last update : **2015-02-23**
 
-### **_Other resources_**  
+## Other resources
 [major.io website] (https://major.io/2015/02/03/linux-support-dell-xps-13-9343-2015-model/)  
 [Barton's blog last update, announcing BIOS A01] (http://bartongeorge.net/2015/02/23/update-2-dell-xps-13-laptop-developer-edition-sputnik-gen-4/)
 
-### **_Actual situation_**  
-
+## Actual situation
 For the moment, linux support on DELL XPS13 2015 is not at its best (hmm). The different encountered problems can be :
  - touchpad freezing (i2c / ps2 mode)
  - no sound (or sound after 2 cold reboots of some kernels, depending on boot options)
  - repeating keystroke issue
  - ?
  
-### **_What about you ?_**  
+## What about you ?
 If you (are able to) use linux on this computer, please specify :
  - kernel version
  - boot options
