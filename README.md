@@ -5,8 +5,9 @@ Please specify :
  - kernel version
  - boot options
  - upsides and downside of this combo
- - OS ?
- - anything useful
+ - applied patches ?
+ - distribution ?
+ - anything you think is useful
  
  Thanks to contributors !
  
