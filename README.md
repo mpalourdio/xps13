@@ -10,7 +10,7 @@ Last update : **2015-02-23**
 For the moment, linux support on DELL XPS13 2015 is not at its best (hmm). The different encountered problems can be :
  - touchpad freezing (i2c / ps2 mode)
  - no sound (or sound after 2 cold reboots of some kernels, depending on boot options)
- - repeating keystroke issue
+ - repeating keystroke issue (should be fixed with BIOS A01)
  - ?
  
 ## What about you ?
