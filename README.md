@@ -3,7 +3,7 @@ Tips and tricks to make XPS13 2015 work with linux.
 Last update : **2015-02-23**
 
 ## Other resources
-[major.io website] (https://major.io/2015/02/03/linux-support-dell-xps-13-9343-2015-model/)  
+[major.io website] (https://major.io/2015/02/03/linux-support-dell-xps-13-9343-2015-model/) ([@major] (https://github.com/major))  
 [Barton's blog last update, announcing BIOS A01] (http://bartongeorge.net/2015/02/23/update-2-dell-xps-13-laptop-developer-edition-sputnik-gen-4/)  
 [Kernel bug ticket for the sound issue] (https://bugzilla.kernel.org/show_bug.cgi?id=93361) by [@major] (https://github.com/major)    
 [Patch for the touchpad] (http://lkml.iu.edu/hypermail/linux/kernel/1502.2/02389.html)  
