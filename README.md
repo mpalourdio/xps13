@@ -25,7 +25,7 @@ If you (are able to) use linux on this computer, please specify :
  
 Thanks to contributors !
  
-##CONFIG 1  
+##CONFIG 1  (by [@janhenke] (https://github.com/janhenke))
  * Kernel: 3.16.0-30-generic (Ubuntu 14.10)
  * Kernel Parameter: none
  * Pro: Touchpad works perfectly
