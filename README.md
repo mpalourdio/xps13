@@ -13,3 +13,7 @@ Please specify :
  
  ========EDIT BELOW THIS LINE=============
  
+ * Kernel: 3.16.0-30-generic (Ubuntu 14.10)
+ * Kernel Paramter: none
+ * Pro: Touchpad works perfectly
+ * Con: No audio (at all)
