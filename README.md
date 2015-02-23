@@ -4,10 +4,10 @@ Tips and tricks to make XPS13 2015 work with linux
 Please specify :
  - kernel version
  - boot options
- - upsides and downside of this combo
- - applied patches ?
- - distribution ?
- - anything you think is useful
+ - pros/cons of this combo
+ - applied patches
+ - distribution
+ - anything you think is useful to know
  
  Thanks to contributors !
  
