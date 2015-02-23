@@ -10,7 +10,7 @@ Last update : **2015-02-23**
 [XPS13 2015 drivers page] (http://www.dell.com/support/home/us/en/04/product-support/product/xps-13-9343-laptop/drivers)  
 
 **Quote about the repeating keystroke issue (Author ?)**  
-``someone asked about the fix for the repeating keypresses. yes, it was traced back to the source and will be fixed on all affected Dell platforms soon. I just saw that the one for 9343 was promoted to our factories so should be up on support.dell.com any day now as BIOS A01``
+``Someone asked about the fix for the repeating keypresses. Yes, it was traced back to the source and will be fixed on all affected Dell platforms soon. I just saw that the one for 9343 was promoted to our factories so should be up on support.dell.com any day now as BIOS A01``
 
 ## Actual situation
 For the moment, linux support on DELL XPS13 2015 is not at its best (hmm). The different encountered problems can be :
