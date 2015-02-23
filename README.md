@@ -8,6 +8,8 @@ Last update : **2015-02-23**
 [Kernel bug ticket for the sound issue] (https://bugzilla.kernel.org/show_bug.cgi?id=93361)  
 [Patch for the touchpad] (http://lkml.iu.edu/hypermail/linux/kernel/1502.2/02389.html)  
 [XPS13 2015 drivers page] (http://www.dell.com/support/home/us/en/04/product-support/product/xps-13-9343-laptop/drivers)  
+[Dell XPS 13 2015 model 9343 on Ubuntu 15.04, dmidecode, lsusb, lspci] (https://gist.github.com/semenko/60015029e13c1de65ff6)  
+IRC : #xps13 (freenode)
 
 **Quote about the repeating keystroke issue (Author ?)**  
 ``Someone asked about the fix for the repeating keypresses. Yes, it was traced back to the source and will be fixed on all affected Dell platforms soon. I just saw that the one for 9343 was promoted to our factories so should be up on support.dell.com any day now as BIOS A01``
