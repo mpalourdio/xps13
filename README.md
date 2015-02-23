@@ -30,5 +30,4 @@ Thanks to contributors !
  * Pro: Touchpad works perfectly
  * Con: No audio (at all)
 
-##CONFIG 2  
-
+##CONFIG 2
