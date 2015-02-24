@@ -39,4 +39,10 @@ Thanks to contributors !
  * Pro: Touchpad works perfectly
  * Con: No audio (at all)
 
-##CONFIG 2
+##CONFIG 2 (by [@soleblaze](https://github.com/soleblaze))
+ * Kernel: 4.0-rc1 ([linux-xps9343](https://github.com/soleblaze/linux-xps13-9343/tree/testing) testing)
+ * Boot Options: enable_rc6=1 enable_fbc=1 lvds_downclock=1 pcie_aspm=force
+ * Patches: Touchpad i2c [patch](https://github.com/soleblaze/linux-xps13-9343/blob/testing/touchpad.patch) to revert change made in 3.18.3
+ * Distribution: Arch Linux
+ * Pros: touchpad works
+ * Cons: no audio, no palm detection
