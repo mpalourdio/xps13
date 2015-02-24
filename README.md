@@ -46,3 +46,12 @@ Thanks to contributors !
  * Distribution: Arch Linux
  * Pros: touchpad works
  * Cons: no audio, no palm detection
+
+ ##CONFIG 3  (by [@mpalourdio] (https://github.com/mpalourdio))
+ * Kernel: 3.16.0-30-generic (#40-14.04.1-Ubuntu)
+ * Kernel Parameter: psmouse.resetafter=0
+ * Distri : Linux Mint 17.1 Rebecca
+ * Pro: Touchpad works / Touchscreen works
+ * Con: No audio. acpi_osi="!Windows 2013" makes the touchpad freeze again
+ * Sound can appear sometimes, when I switch between kernels (3.13 and 3.16). 3.16.0.31 makes the touchpad freeze, and there's no sound (whatever the boot kernel parameters)
+  * Stock kernel (3.13) has sound all the time, but psmouse.resetafter doesn't seem to work
