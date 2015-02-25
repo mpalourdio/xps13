@@ -50,6 +50,7 @@ Thanks to contributors !
  * Cons: no audio, no palm detection
 
 ##CONFIG 3  (by [@mpalourdio] (https://github.com/mpalourdio))
+ * BIOS A01
  * Kernel: 3.16.0-30-generic (#40-14.04.1-Ubuntu)
  * Kernel Parameter: psmouse.resetafter=0 && acpi_osi="!Windows 2013"
  * Distri : Linux Mint 17.1 Rebecca
