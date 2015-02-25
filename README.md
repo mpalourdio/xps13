@@ -1,6 +1,8 @@
 <h1>DELL xps13 2015 (9343) Linux Support</h1>
 Tips and tricks to make XPS13 2015 work with linux.  
-Last update : **2015-02-23**
+Last update : **2015-02-25**
+
+BIOS A01 is out : http://www.dell.com/support/home/us/en/04/Drivers/DriversDetails?driverID=RHPC0&productCode=xps-13-9343-laptop
 
 ## Other resources
 [major.io website] (https://major.io/2015/02/03/linux-support-dell-xps-13-9343-2015-model/) ([@major] (https://github.com/major))  
@@ -51,7 +53,7 @@ Thanks to contributors !
  * Kernel: 3.16.0-30-generic (#40-14.04.1-Ubuntu)
  * Kernel Parameter: psmouse.resetafter=0
  * Distri : Linux Mint 17.1 Rebecca
- * Pro: ~~Touchpad works~~ NO RIGHT CLICK :( / Touchscreen works
+ * Pro: Touchpad works :( / Touchscreen works
  * Con: No audio. acpi_osi="!Windows 2013" makes the touchpad freeze again
- * Sound can appear sometimes, when I switch between kernels (3.13 and 3.16). 3.16.0.31 makes the touchpad freeze, and there's no sound (whatever the boot kernel parameters)
- * Stock kernel (3.13) has sound all the time, but psmouse.resetafter doesn't seem to work
+ * Sound seems ok, (3.13 and 3.16.30). 3.16.0.31 makes the touchpad freeze, and there's no sound (whatever the boot kernel parameters)
+ * Stock kernel (3.13) has sound all the time
