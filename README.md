@@ -42,12 +42,13 @@ Thanks to contributors !
  * Con: No audio (at all)
 
 ##CONFIG 2 (by [@soleblaze](https://github.com/soleblaze))
+ * BIOS: A01
  * Kernel: 4.0-rc1 ([linux-xps9343](https://github.com/soleblaze/linux-xps13-9343/tree/testing) testing)
- * Boot Options: enable_rc6=1 enable_fbc=1 lvds_downclock=1 pcie_aspm=force
- * Patches: Touchpad i2c [patch](https://github.com/soleblaze/linux-xps13-9343/blob/testing/touchpad.patch) to revert change made in 3.18.3
+ * Kernel Parameters: enable_rc6=1 enable_fbc=1 lvds_downclock=1 pcie_aspm=force  psmouse.resetafter=0 acpi_osi="!Windows 2013"
+ * Patches: None
  * Distribution: Arch Linux
- * Pros: touchpad works
- * Cons: no audio, no palm detection
+ * Pros: touchpad and sound work.  Palm detection works.
+ * Cons: dmesg is flooded with "psmouse serio1: TouchPad at isa0060/serio1/input0 lost sync at byte 1" messages.  Vertical scrolling does not work
 
 ##CONFIG 3  (by [@mpalourdio] (https://github.com/mpalourdio))
  * BIOS A01
