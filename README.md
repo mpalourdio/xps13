@@ -59,3 +59,12 @@ Thanks to contributors !
  * Sound seems ok, (3.13 and 3.16.30). 3.16.0.31 makes the touchpad freeze, and there's no sound (whatever the boot kernel parameters)
  * Stock kernel (3.13) has sound all the time
  * 3.16.x has very poor wifi (intel 7265), 3.13 doens't have this problem.
+
+ ##CONFIG 4  (by [@mpalourdio] (https://github.com/mpalourdio))
+ * BIOS A01
+ * Kernel: 3.18.7
+ * Kernel Parameter: psmouse.resetafter=0 && acpi_osi="!Windows 2013"
+ * Distri : Linux Mint 17.1 Rebecca
+ * Pro: Touchpad works / Touchscreen works / Sound ok
+ * Poor wifi (intel 7265). Fix : iwconfig wlan0 power off
+ * Cons : none ATM
