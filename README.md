@@ -58,3 +58,4 @@ Thanks to contributors !
  * Pro: Touchpad works / Touchscreen works
  * Sound seems ok, (3.13 and 3.16.30). 3.16.0.31 makes the touchpad freeze, and there's no sound (whatever the boot kernel parameters)
  * Stock kernel (3.13) has sound all the time
+ * 3.16.x has very poor wifi (intel 7265), 3.13 doens't have this problem.
