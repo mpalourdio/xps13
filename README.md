@@ -2,7 +2,7 @@
 Tips and tricks to make XPS13 2015 work with linux.  
 Last update : **2015-02-25**
 
-BIOS A01 is out : http://www.dell.com/support/home/us/en/04/Drivers/DriversDetails?driverID=RHPC0&productCode=xps-13-9343-laptop
+BIOS A01 is [out] (http://www.dell.com/support/home/us/en/04/Drivers/DriversDetails?driverID=RHPC0&productCode=xps-13-9343-laptop)
 
 ## Other resources
 [major.io website] (https://major.io/2015/02/03/linux-support-dell-xps-13-9343-2015-model/) ([@major] (https://github.com/major))  
@@ -18,10 +18,10 @@ IRC : #xps13 (freenode)
 ``Someone asked about the fix for the repeating keypresses. Yes, it was traced back to the source and will be fixed on all affected Dell platforms soon. I just saw that the one for 9343 was promoted to our factories so should be up on support.dell.com any day now as BIOS A01``
 
 ## Actual situation
-For the moment, linux support on DELL XPS13 2015 is not at its best (hmm). The different encountered problems can be :
+From A01, linux support is quite descent. The different encountered problems can be :
  - touchpad freezing (i2c / ps2 mode)
  - no sound (or sound after 2 cold reboots of some kernels, depending on boot options)
- - repeating keystroke issue (should be fixed with BIOS A01)
+ - ~~repeating keystroke issue (should be fixed with BIOS A01)~~ (fixed with BIOS A01)
  - ?
  
 ## What about you ?
