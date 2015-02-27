@@ -60,7 +60,7 @@ Thanks to contributors !
  * Stock kernel (3.13) has sound all the time
  * 3.16.x has very poor wifi (intel 7265), 3.13 doens't have this problem.
 
- ##CONFIG 4  (by [@mpalourdio] (https://github.com/mpalourdio))
+##CONFIG 4  (by [@mpalourdio] (https://github.com/mpalourdio))
  * BIOS A01
  * Kernel: 3.18.7
  * Kernel Parameter: psmouse.resetafter=0 && acpi_osi="!Windows 2013"
@@ -68,3 +68,16 @@ Thanks to contributors !
  * Pro: Touchpad works / Touchscreen works / Sound ok
  * Poor wifi (intel 7265). Fix : iwconfig wlan0 power off
  * Cons : none ATM
+
+##CONFIG 5  (by [@timdj] (https://github.com/timdj))
+ * BIOS A01
+ * Kernel: 4.0-rc1 custom build with patched i2c-hid and hid-multitouch
+ * Kernel Parameter: acpi_osi="!Windows 2013" pmouse.resetafter=0 i915.enable_fbc=1 i915.lvds_downclock=1 pcie_aspm=force i915.enable_psr=1
+ * Distribution : Linux Mint 17.1 Rebecca
+ * Pro: Touchpad works / Touchscreen works / Sound ok
+ * Applied patches: i2c-hid, hid-multitouch [latest firmware package](https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git) and [latest firmware for intel 7265] (https://git.kernel.org/cgit/linux/kernel/git/iwlwifi/linux-firmware.git)
+ * Cons
+   - Still not happy with touchpad, no palmdetect, moving cursor on button click.
+   - Suspend, poweroff and reboot does not always work.
+   - Microphone not working
+ * after using kernel parameters above and installing tlp my idle power usage (low brightness QHD+ screen) is down to 3.16W with WiFi / 3.03W withouth WiFi
