@@ -60,7 +60,7 @@ Thanks to contributors !
  * Stock kernel (3.13) has sound all the time
  * 3.16.x has very poor wifi (intel 7265), 3.13 doens't have this problem.
 
- ##CONFIG 4  (by [@mpalourdio] (https://github.com/mpalourdio))
+##CONFIG 4  (by [@mpalourdio] (https://github.com/mpalourdio))
  * BIOS A01
  * Kernel: 3.18.7
  * Kernel Parameter: psmouse.resetafter=0 && acpi_osi="!Windows 2013"
@@ -69,11 +69,11 @@ Thanks to contributors !
  * Poor wifi (intel 7265). Fix : iwconfig wlan0 power off
  * Cons : none ATM
 
- ##CONFIG 5  (by [@timdj] (https://github.com/timdj))
+##CONFIG 5  (by [@timdj] (https://github.com/timdj))
  * BIOS A01
  * Kernel: 4.0-rc1 custom build with patched i2c-hid and hid-multitouch
  * Kernel Parameter: acpi_osi="!Windows 2013" pmouse.resetafter=0 i915.enable_fbc=1 i915.lvds_downclock=1 pcie_aspm=force i915.enable_psr=1
- * Distri : Linux Mint 17.1 Rebecca
+ * Distribution : Linux Mint 17.1 Rebecca
  * Pro: Touchpad works / Touchscreen works / Sound ok
  * Applied patches: i2c-hid, hid-multitouch [latest firmware package](https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git) and [latest firmware for intel 7265] (https://git.kernel.org/cgit/linux/kernel/git/iwlwifi/linux-firmware.git)
  * Cons
