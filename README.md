@@ -45,6 +45,7 @@ Thanks to contributors !
  * BIOS: A01
  * Kernel: 4.0-rc1 ([linux-xps9343](https://github.com/soleblaze/linux-xps13-9343/tree/testing) testing)
  * Kernel Parameters: enable_rc6=1 enable_fbc=1 lvds_downclock=1 pcie_aspm=force  psmouse.resetafter=0 acpi_osi="!Windows 2013"
+ * [/etc/X11/xorg.conf.d/50-synaptics.conf](https://gist.github.com/soleblaze/975bc2b0e5e69137fd08) is configured for palm detection and clickpad
  * Patches: None
  * Distribution: Arch Linux
  * Pros: touchpad and sound work.  Palm detection works.
