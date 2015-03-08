@@ -63,11 +63,11 @@ Thanks to contributors !
 
 ##CONFIG 4  (by [@mpalourdio] (https://github.com/mpalourdio))
  * BIOS A01
- * Kernel: 3.18.7
+ * Kernel: 3.18.7 and/or 3.18.8
  * Kernel Parameter: psmouse.resetafter=0 && acpi_osi="!Windows 2013"
  * Distri : Linux Mint 17.1 Rebecca
  * Pro: Touchpad works / Touchscreen works / Sound ok
- * Poor wifi (intel 7265). Fix : iwconfig wlan0 power off
+ * Poor wifi (intel 7265). Fix : iwconfig wlan0 power off => seems much better with 3.18.8 and last linux firmware.
  * Cons : none ATM
 
 ##CONFIG 5  (by [@timdj] (https://github.com/timdj))
