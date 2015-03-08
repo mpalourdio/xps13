@@ -18,7 +18,7 @@ IRC : #xps13 (freenode)
 ``Someone asked about the fix for the repeating keypresses. Yes, it was traced back to the source and will be fixed on all affected Dell platforms soon. I just saw that the one for 9343 was promoted to our factories so should be up on support.dell.com any day now as BIOS A01``
 
 ## Actual situation
-From A01, linux support is quite descent. The different encountered problems can be :
+From A01, linux support is quite decent. The different encountered problems can be :
  - touchpad freezing (i2c / ps2 mode)
  - no sound (or sound after 2 cold reboots of some kernels, depending on boot options)
  - ~~repeating keystroke issue (should be fixed with BIOS A01)~~ (fixed with BIOS A01)
