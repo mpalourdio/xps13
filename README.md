@@ -18,14 +18,14 @@ IRC : #xps13 (freenode)
 ``Someone asked about the fix for the repeating keypresses. Yes, it was traced back to the source and will be fixed on all affected Dell platforms soon. I just saw that the one for 9343 was promoted to our factories so should be up on support.dell.com any day now as BIOS A01``
 
 ## Actual situation
-From A01, linux support is quite decent. The different encountered problems can be :
+From **A01**, linux support is quite decent. The different encountered problems can be :
  - touchpad freezing (i2c / ps2 mode)
  - no sound (or sound after 2 cold reboots of some kernels, depending on boot options)
  - ~~repeating keystroke issue (should be fixed with BIOS A01)~~ (fixed with BIOS A01)
  - ?
  
-From A02, boot options are not needed anymore, sound will be ok and touchpad will be in i2c mode ! It's still recommended to have a recent kernel (3.17+). Verify your touchpad mode with ``xinput``.  
-It should give you something like ``DLL0665:01 06CB:76AD UNKNOWN``. You should have to blacklist psmouse too? See [here](config6/50-synaptics.conf).
+From **A02**, boot options are not needed anymore, sound will be ok and touchpad will be in i2c mode ! It's still recommended to have a recent kernel (3.17+). Verify your touchpad mode with ``xinput``.  
+It should give you something like ``DLL0665:01 06CB:76AD UNKNOWN`` if i2c mode is on. You could have to blacklist psmouse too. See [here](config6/psmouse-blacklist.conf).
 
  
 ## What about you ?
