@@ -25,7 +25,8 @@ From **A01**, linux support is quite decent. The different encountered problems 
  - ~~repeating keystroke issue (should be fixed with BIOS A01)~~ (fixed with BIOS A01)
  - ?
  
-From **A02**, boot options are not needed anymore, sound will be ok and touchpad will be in i2c mode ! It's still recommended to have a recent kernel (3.17+). Verify your touchpad mode with ``xinput``.  
+From **A02**, boot options are not needed anymore. Sound will be ok (HDA mode by default) and touchpad will be in i2c mode as ``!Windows 2013`` is not needed anymore to make audio work!  
+It's still recommended to have a recent kernel (3.17+). Verify your touchpad mode with ``xinput``.  
 It should give you something like ``DLL0665:01 06CB:76AD UNKNOWN`` if i2c mode is on. You could have to blacklist psmouse too. See [here](config6/psmouse-blacklist.conf).
 
  
@@ -97,4 +98,3 @@ Thanks to contributors !
   * Cons : Microphone doesn't work. Suspend / Hibernate mode doesn't work all the time, no palmdetect (i2c mode)
   * Touchpad config : [50-synaptics.conf](config6/50-synaptics.conf) , to create in ``/etc/X11/xorg.conf.d``
   * Blacklist psmouse : [psmouse-blacklist.conf](config6/psmouse-blacklist.conf)
-
