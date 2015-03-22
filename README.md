@@ -90,6 +90,6 @@ Thanks to contributors !
   * Distri : Linux Mint 17.1 Rebecca
   * Pro: Touchpad works / Touchscreen works / Sound ok
   * Cons : Microphone doesn't work. Suspend / Hibernate mode doesn't work all the time, no palmdetect (i2c mode)
-  * Touchpad config : [50-synaptic.conf](50-synaptic.conf)
+  * Touchpad config : [50-synaptics.conf](50-synaptics.conf) , to create in ``/etc/X11/xorg.conf.d``
   * Blacklist psmouse : [psmouse-blacklist.conf](psmouse-blacklist.conf)
 
