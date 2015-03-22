@@ -12,6 +12,7 @@ BIOS A02 is [out] (http://www.dell.com/support/home/en/en/nldhs1/Drivers/Drivers
 [XPS13 2015 drivers page] (http://www.dell.com/support/home/us/en/04/product-support/product/xps-13-9343-laptop/drivers)  
 [Dell XPS 13 2015 model 9343 on Ubuntu 15.04, dmidecode, lsusb, lspci] (https://gist.github.com/semenko/60015029e13c1de65ff6) by [@semenko] (https://github.com/semenko)  
 [Patch that you can apply to 3.18 or 3.19 kernels that eliminates the trackpad freeze] (https://bugzilla.redhat.com/attachment.cgi?id=990188) by [@major] (https://github.com/major)  
+[Installing ubuntu 14.04 on the new Dell XPS 13](http://forthescience.org/blog/2015/03/20/installing_ubuntu_14_04_on_the_new_dell_xps_13/)  
 IRC : #xps13 (freenode)
 
 **Quote about the repeating keystroke issue (Author ?)**  
