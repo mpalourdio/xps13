@@ -62,12 +62,12 @@ Thanks to contributors !
 
 ##CONFIG 4  (by [@mpalourdio] (https://github.com/mpalourdio))
  * BIOS A01
- * Kernel: 3.18.7 and/or 3.18.8 and/or 3.19.1 (3.19.0 = kernel panic)
+ * Kernel: 3.18.7 and/or 3.18.8 and/or 3.19.1/3.19.2 (3.19.0 = kernel panic)
  * Kernel Parameter: psmouse.resetafter=0 && acpi_osi="!Windows 2013"
  * Distri : Linux Mint 17.1 Rebecca
  * Pro: Touchpad works / Touchscreen works / Sound ok
  * Poor wifi (intel 7265). Fix : iwconfig wlan0 power off => seems much better with 3.18.8/3.19.1 and last linux firmware.
- * Cons : none ATM (maybe microphone doesn't work ? Not tested ATM)
+ * Cons : Microphone doesn't work. Suspend mode doesn't work all the time. Sometines, touchpad jumbs to screen border. Dmesg populated with message
 
 ##CONFIG 5  (by [@timdj] (https://github.com/timdj))
  * BIOS A01
