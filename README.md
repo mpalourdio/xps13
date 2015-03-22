@@ -24,6 +24,10 @@ From A01, linux support is quite decent. The different encountered problems can 
  - ~~repeating keystroke issue (should be fixed with BIOS A01)~~ (fixed with BIOS A01)
  - ?
  
+From A02, boot options are not needed anymore, sound will be ok and touchpad will be in i2c mode ! It's still recommended to have a recent kernel (3.17+). Verify your touchpad mode with ``xinput``.  
+It should give you something like ``DLL0665:01 06CB:76AD UNKNOWN``. You should have to blacklist psmouse too? See [here](config6/50-synaptics.conf).
+
+ 
 ## What about you ?
 If you (are able to) use linux on this computer, please specify :
  - kernel version
