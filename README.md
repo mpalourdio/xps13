@@ -98,3 +98,12 @@ Thanks to contributors !
   * Cons : Microphone doesn't work. Suspend / Hibernate mode doesn't work all the time, no palmdetect (i2c mode)
   * Touchpad config : [50-synaptics.conf](config6/50-synaptics.conf) , to create in ``/etc/X11/xorg.conf.d``
   * Blacklist psmouse : [psmouse-blacklist.conf](config6/psmouse-blacklist.conf)
+
+##CONFIG 7  (by [@pcolby] (https://github.com/pcolby))
+  * BIOS A02
+  * Kernel: 3.18.0-13-generic #14-Ubuntu SMP
+  * Kernel Parameter: None
+  * Distri: Kubuntu 15.04 Beta 1 (kubuntu-15.04-beta1-desktop-amd64)
+  * Pro: Everything seems to be working fine, including audio (haven't had time to test thoroughly yet).
+  * Cons: Microphone might not work? (not tested)
+  * Custom HiDPI config : [90-eDP1.conf](config7/90-eDP1.conf) in `/usr/share/X11/xorg.conf.d`
