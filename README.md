@@ -92,9 +92,9 @@ Thanks to contributors !
  * after using kernel parameters above and installing tlp my idle power usage (low brightness QHD+ screen) is down to 3.16W with WiFi / 3.03W withouth WiFi
 
 ##CONFIG 6  (by [@mpalourdio] (https://github.com/mpalourdio))
-  * BIOS A02
-  * Kernel: 3.19.2 
-  * Kernel Parameter: NONE !
+  * BIOS A03
+  * Kernel: 3.19.3 
+  * Kernel Parameter: none
   * Distri : Linux Mint 17.1 Rebecca
   * Pro: Touchpad works / Touchscreen works / Sound ok
   * Cons : Microphone doesn't work. Suspend / Hibernate mode doesn't work all the time, no palmdetect (i2c mode)
