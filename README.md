@@ -115,5 +115,6 @@ Thanks to contributors !
   * Kernel: 3.16.0-4 
   * Kernel Parameter: none
   * Distri : Debian Jessie
-  * Cons : Sound and mic don't work.Touchpad not working properly
+  * Cons : Mic doesn't work.Touchpad not working properly (touch clicks are not being detected and two-finger gestures block the touchpad)
   * Wifi config : Follow the next tutorial: [Broadcom drivers](https://wiki.debian.org/wl)
+  * Sound is working, altough I had to select "Speakers" in the sound configuration menu (Gnome 3)
