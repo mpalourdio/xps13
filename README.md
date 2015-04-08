@@ -109,3 +109,11 @@ Thanks to contributors !
   * Pro: Everything seems to be working fine, including audio (haven't had time to test thoroughly yet).
   * Cons: Microphone might not work? (not tested)
   * Custom HiDPI config : [90-eDP1.conf](config7/90-eDP1.conf) in `/usr/share/X11/xorg.conf.d`
+
+##CONFIG 8  (by [@xbcrespo] (https://github.com/xbcrespo))
+  * BIOS A03
+  * Kernel: 3.16.0-4 
+  * Kernel Parameter: none
+  * Distri : Debian Jessie
+  * Cons : Sound and mic don't work.Touchpad not working properly
+  * Wifi config : Follow the next tutorial: [Broadcom drivers](https://wiki.debian.org/wl)
