@@ -118,3 +118,14 @@ Thanks to contributors !
   * Cons : Mic doesn't work.Touchpad not working properly (touch clicks are not being detected and two-finger gestures block the touchpad)
   * Wifi config : Follow the next tutorial: [Broadcom drivers](https://wiki.debian.org/wl)
   * Sound is working, altough I had to select "Speakers" in the sound configuration menu (Gnome 3)
+
+##CONFIG 9  (by [@alessio] (https://github.com/alessio))
+  * BIOS A03
+  * Kernel: 3.19.0-13-generic
+  * Kernel Parameter: none
+  * Distribution: Ubuntu 15.04
+  * Cons: none
+  * Wifi config : Follow the next tutorial: [Broadcom drivers](https://wiki.debian.org/wl)
+  * Touchpad works flawlessly, needs psmouse to be blacklisted
+  * Blacklist psmouse as it seems causing X to be unstable: [psmouse-blacklist.conf](config6/psmouse-blacklist.conf)
+  * Sound works like a charm. Internal mic, speakers and headset automatic switch: it's all working well
