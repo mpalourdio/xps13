@@ -128,4 +128,4 @@ Thanks to contributors !
   * Wifi config : Follow the next tutorial: [Broadcom drivers](https://wiki.debian.org/wl)
   * Touchpad works flawlessly, needs psmouse to be blacklisted
   * Blacklist psmouse as it seems causing X to be unstable: [psmouse-blacklist.conf](config6/psmouse-blacklist.conf)
-  * Sound works
+  * Sound works like a charm. Internal mic, speakers and headset automatic switch: it's all working well
