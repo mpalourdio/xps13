@@ -121,11 +121,14 @@ Thanks to contributors !
 
 ##CONFIG 9  (by [@alessio] (https://github.com/alessio))
   * BIOS A03
-  * Kernel: 3.19.0-13-generic
+  * Touchpad firmware A00 (http://downloads.dell.com/FOLDER02883019M/1/9343_Firmware_T792T_WN32_18.1.48_A00.EXE)
+  * Kernel: 3.19.0-15-generic
   * Kernel Parameter: none
   * Distribution: Ubuntu 15.04
-  * Cons: none
-  * Wifi config : Follow the next tutorial: [Broadcom drivers](https://wiki.debian.org/wl)
-  * Touchpad works flawlessly, needs psmouse to be blacklisted
+  * Touchpad config : [50-synaptics.conf](config9/50-synaptics.conf) , to create in ``/etc/X11/xorg.conf.d``
+    - Mid-button emulation with left+right tap
   * Blacklist psmouse as it seems causing X to be unstable: [psmouse-blacklist.conf](config6/psmouse-blacklist.conf)
+  * TTY consoles font improvements : [console-setup](config9/console-setup) , overwrite the existing one in ``/etc/default/``
+  * Disable Bluetooth and apply TTY's font improvements at boot : [rc.local](config9/rc.local) , overwrite the existing one in ``/etc/``
+  * Cons: none
   * Sound works like a charm. Internal mic, speakers and headset automatic switch: it's all working well
