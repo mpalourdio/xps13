@@ -129,5 +129,6 @@ Thanks to contributors !
     - Mid-button emulation with left+right tap
   * Blacklist psmouse as it seems causing X to be unstable: [psmouse-blacklist.conf](config6/psmouse-blacklist.conf)
   * TTY consoles font improvements : [console-setup](config9/console-setup) , overwrite the existing one in /etc/default/
+  * Disable Bluetooth and apply TTY's font improvements at boot : [rc.local](config9/rc.local) , overwrite the existing one in ``/etc/``
   * Cons: none
   * Sound works like a charm. Internal mic, speakers and headset automatic switch: it's all working well
