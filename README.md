@@ -122,7 +122,7 @@ Thanks to contributors !
 ##CONFIG 9  (by [@alessio] (https://github.com/alessio))
   * BIOS A03
   * Touchpad firmware A00 (http://downloads.dell.com/FOLDER02883019M/1/9343_Firmware_T792T_WN32_18.1.48_A00.EXE)
-  * Kernel: 3.19.0-13-generic
+  * Kernel: 3.19.0-15-generic
   * Kernel Parameter: none
   * Distribution: Ubuntu 15.04
   * Touchpad config : [50-synaptics.conf](config9/50-synaptics.conf) , to create in ``/etc/X11/xorg.conf.d``
