@@ -125,10 +125,9 @@ Thanks to contributors !
   * Kernel: 3.19.0-13-generic
   * Kernel Parameter: none
   * Distribution: Ubuntu 15.04
-  * Cons: none
-  * Wifi config : Follow the next tutorial: [Broadcom drivers](https://wiki.debian.org/wl)
   * Touchpad config : [50-synaptics.conf](config9/50-synaptics.conf) , to create in ``/etc/X11/xorg.conf.d``
     - Mid-button emulation with left+right tap
   * Blacklist psmouse as it seems causing X to be unstable: [psmouse-blacklist.conf](config6/psmouse-blacklist.conf)
   * TTY consoles font improvements : [console-setup](config9/console-setup) , overwrite the existing one in /etc/default/
+  * Cons: none
   * Sound works like a charm. Internal mic, speakers and headset automatic switch: it's all working well
