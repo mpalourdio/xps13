@@ -127,6 +127,7 @@ Thanks to contributors !
   * Distribution: Ubuntu 15.04
   * Cons: none
   * Wifi config : Follow the next tutorial: [Broadcom drivers](https://wiki.debian.org/wl)
-  * Touchpad works flawlessly, needs psmouse to be blacklisted
+  * Touchpad config : [50-synaptics.conf](config9/50-synaptics.conf) , to create in ``/etc/X11/xorg.conf.d``
+    - Mid-button emulation with left+right tap
   * Blacklist psmouse as it seems causing X to be unstable: [psmouse-blacklist.conf](config6/psmouse-blacklist.conf)
   * Sound works like a charm. Internal mic, speakers and headset automatic switch: it's all working well
