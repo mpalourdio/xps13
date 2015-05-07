@@ -132,3 +132,13 @@ Thanks to contributors !
   * Disable Bluetooth and apply TTY's font improvements at boot : [rc.local](config9/rc.local) , overwrite the existing one in ``/etc/``
   * Cons: none
   * Sound works like a charm. Internal mic, speakers and headset automatic switch: it's all working well
+
+##CONFIG 10  (by [@kumy] (https://github.com/kumy))
+  * BIOS A02
+  * Kernel: 3.19.0-16-generic #16-Ubuntu SMP
+  * Kernel Parameter: None
+  * Distri: Ubuntu 15.04 (Vivid)
+  * Pro: Everything seems to be working fine.
+  * Cons: Microphone might not work? (not tested)
+  * Boot mode UEFI
+  * Wireless channels 12 and 13 are not available for use: [debian wiki](https://wiki.debian.org/wl#Known_Issues)
