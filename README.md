@@ -14,7 +14,7 @@ BIOS A03 is [out] (http://www.dell.com/support/home/en/en/nldhs1/Drivers/Drivers
 [XPS13 2015 drivers page] (http://www.dell.com/support/home/us/en/04/product-support/product/xps-13-9343-laptop/drivers)  
 [Dell XPS 13 2015 model 9343 on Ubuntu 15.04, dmidecode, lsusb, lspci] (https://gist.github.com/semenko/60015029e13c1de65ff6) by [@semenko] (https://github.com/semenko)  
 [Patch that you can apply to 3.18 or 3.19 kernels that eliminates the trackpad freeze] (https://bugzilla.redhat.com/attachment.cgi?id=990188) by [@major] (https://github.com/major)  
-[Installing ubuntu 14.04 on the new Dell XPS 13](http://forthescience.org/blog/2015/03/20/installing_ubuntu_14_04_on_the_new_dell_xps_13/)  
+[Installing ubuntu 14.04 on the new Dell XPS 13](http://forthescience.org/blog/2015/04/21/installing_ubuntu_14_04_on_the_new_dell_xps_13_v2)  
 IRC : #xps13 (freenode)
 
 **Quote about the repeating keystroke issue (Author ?)**  
@@ -142,3 +142,13 @@ Thanks to contributors !
   * Cons: Microphone might not work? (not tested)
   * Boot mode UEFI
   * Wireless channels 12 and 13 are not available for use: [debian wiki](https://wiki.debian.org/wl#Known_Issues)
+
+##CONFIG 11 (by [@rpbaptist] (https://github.com/rpbaptist))
+  * BIOS A03
+  * Kernel 4.0 ([Patched as instructed here](http://forthescience.org/blog/2015/04/21/installing_ubuntu_14_04_on_the_new_dell_xps_13_v2/))
+  * Kernel Parameter: psmouse.resetafter=0 pcie_aspm=force (Not sure if this makes a difference, graphic power saving caused flicker.)
+  * Distribution: Linux Mint 17.1
+  * Configuration as listed in same link as mentioned in kernel link.
+  * Pro: Wifi works, sound, headphone detection, microphone. Touchpad okay.
+  * Con: Battery time of normal use is about 7 hours. Expected more. Using LPT. Palm detection is not working. Sometimes cursor jumps. Rarely, but occaisionally get stuck key.
+  * Boot mode: UEFI
