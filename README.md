@@ -146,7 +146,7 @@ Thanks to contributors !
 ##CONFIG 11 (by [@rpbaptist] (https://github.com/rpbaptist))
   * BIOS A03
   * Kernel 4.0 ([Patched as instructed here](http://forthescience.org/blog/2015/04/21/installing_ubuntu_14_04_on_the_new_dell_xps_13_v2/))
-  * Kernel Parameter: psmouse.resetafter=0 pcie_aspm=force i915.i915_enable_fbc=1
+  * Kernel Parameter: pcie_aspm=force i915.i915_enable_fbc=1
   * Distribution: Linux Mint 17.1
   * Configuration as listed in same link as mentioned in kernel link.
   * Pro: Wifi works, sound, headphone detection, microphone. Touchpad palm detectionn okay.
