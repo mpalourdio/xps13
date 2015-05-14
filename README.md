@@ -147,9 +147,9 @@ Thanks to contributors !
 ##CONFIG 11 (by [@rpbaptist] (https://github.com/rpbaptist))
   * BIOS A03
   * Kernel 4.0 ([Patched as instructed here](http://forthescience.org/blog/2015/04/21/installing_ubuntu_14_04_on_the_new_dell_xps_13_v2/))
-  * Kernel Parameter: psmouse.resetafter=0 pcie_aspm=force (Not sure if this makes a difference, graphic power saving caused flicker.)
+  * Kernel Parameter: pcie_aspm=force i915.i915_enable_fbc=1
   * Distribution: Linux Mint 17.1
   * Configuration as listed in same link as mentioned in kernel link.
-  * Pro: Wifi works, sound, headphone detection, microphone. Touchpad okay.
-  * Con: Battery time of normal use is about 7 hours. Expected more. Using LPT. Palm detection is not working. Sometimes cursor jumps. Rarely, but occaisionally get stuck key.
+  * Pro: Wifi works, sound, headphone detection, microphone. Touchpad palm detectionn okay.
+  * Con: With these kernel params and custom touchpad configuration things are pretty good. Battery life is now around 10 hours. I got a stuck key once, but consider it an anamoly at this point.
   * Boot mode: UEFI
