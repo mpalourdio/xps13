@@ -94,7 +94,7 @@ Thanks to contributors !
 
 ##CONFIG 6  (by [@mpalourdio] (https://github.com/mpalourdio))
   * BIOS A03
-  * Kernel: 3.19.3 
+  * Kernel: 3.19.8 mainline kernel
   * Kernel Parameter: none
   * Distri : Linux Mint 17.1 Rebecca
   * Pro: Touchpad works / Touchscreen works / Sound ok
