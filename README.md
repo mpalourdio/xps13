@@ -153,3 +153,13 @@ Thanks to contributors !
   * Pro: Wifi works, sound, headphone detection, microphone. Touchpad palm detectionn okay.
   * Con: With these kernel params and custom touchpad configuration things are pretty good. Battery life is now around 10 hours. I got a stuck key once, but consider it an anamoly at this point.
   * Boot mode: UEFI
+
+##CONFIG 12 (by [@linquize] (https://github.com/linquize))
+* BIOS A03
+* Touchpad firmware A00
+* Kernel: 3.19.0-18-generic #18-Ubuntu SMP
+* Kernel Parameter: None
+* Distribution: Ubuntu 15.04 (Vivid) x64
+* Pro: This kernel makes microphone to work.
+* Cons: None
+* Boot mode: UEFI with secure boot
