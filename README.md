@@ -94,11 +94,11 @@ Thanks to contributors !
 
 ##CONFIG 6  (by [@mpalourdio] (https://github.com/mpalourdio))
   * BIOS A03
-  * Kernel: 3.19.8 mainline kernel
+  * Kernel:  3.19.0-15-generic #15-Ubuntu SMP
   * Kernel Parameter: none
   * Distri : Linux Mint 17.1 Rebecca
-  * Pro: Touchpad works / Touchscreen works / Sound ok
-  * Cons : Microphone doesn't work. Suspend / Hibernate mode doesn't work all the time, no palmdetect (i2c mode)
+  * Pro: Microphone ok / Touchpad works / Touchscreen works / Sound ok
+  * Cons : Suspend / Hibernate mode doesn't work all the time, no palmdetect (i2c mode)
   * Touchpad config : [50-synaptics.conf](config6/50-synaptics.conf) , to create in ``/etc/X11/xorg.conf.d``
   * Blacklist psmouse : [psmouse-blacklist.conf](config6/psmouse-blacklist.conf)
 
