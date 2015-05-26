@@ -1,10 +1,10 @@
 <h1>DELL xps13 2015 (9343) Linux Support</h1>
 Tips and tricks to make XPS13 2015 work with linux.
 
-~~BIOS A01 is [out] (http://www.dell.com/support/home/us/en/04/Drivers/DriversDetails?driverID=RHPC0&productCode=xps-13-9343-laptop)~~  
+~~BIOS A01 is [out] (http://www.dell.com/support/home/us/en/04/Drivers/DriversDetails?driverID=RHPC0)~~  
 ~~BIOS A02 is [out] (http://www.dell.com/support/home/en/en/nldhs1/Drivers/DriversDetails?driverId=F2PRR)~~  
-~~BIOS A03 is [out] (http://www.dell.com/support/home/en/en/nldhs1/Drivers/DriversDetails?driverId=XY677&fileId=3444115068&osCode=WB64A&productCode=xps-13-9343-laptop&languageCode=EN&categoryId=BI)~~  
-BIOS A04 is [out] (http://www.dell.com/support/home/us/en/04/Drivers/DriversDetails?driverId=133FN&fileId=3460094693&osCode=WB64A&productCode=xps-13-9343-laptop&languageCode=EN&categoryId=BI)
+~~BIOS A03 is [out] (http://www.dell.com/support/home/en/en/nldhs1/Drivers/DriversDetails?driverId=XY677)~~  
+BIOS A04 is [out] (http://www.dell.com/support/home/us/en/04/Drivers/DriversDetails?driverId=133FN)
 
 ## Other resources
 [major.io website] (https://major.io/2015/02/03/linux-support-dell-xps-13-9343-2015-model/) ([@major] (https://github.com/major))  
