@@ -30,6 +30,8 @@ From **A02**, boot options are not needed anymore. Sound will be ok (HDA mode by
 It's still recommended to have a recent kernel (3.17+). Verify your touchpad mode with ``xinput``.  
 It should give you something like ``DLL0665:01 06CB:76AD UNKNOWN`` if i2c mode is on. You could have to blacklist psmouse too. See [here](config6/psmouse-blacklist.conf).
 
+BIOS A04 : ``relevant things to linux are: keyboard repeat delay, fix an intermittent hang up at POST, update EC, update CPU microcode,  intel platform trust technology updates``
+
 Anyway, you should upgrade BIOS to the latest version (at your own risk !). To upgrade, download the BIOS .exe, and save it in ``/boot/efi``. Double-check the checksum, reboot, press F12 and patch.
 
 **Quote about the repeating keystroke issue (Author ?)**  
