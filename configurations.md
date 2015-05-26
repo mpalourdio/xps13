@@ -11,8 +11,8 @@ rest. BIOS are listed from the most recent to the oldest
   * Distri : Linux Mint 17.1 Rebecca
   * Pro: Microphone ok / Touchscreen works / Sound ok
   * Cons : Suspend / Hibernate mode doesn't work all the time, no palmdetect (i2c mode)
-  * Touchpad config : [50-synaptics.conf](config6/50-synaptics.conf) , to create in ``/etc/X11/xorg.conf.d``
-  * Blacklist psmouse : [psmouse-blacklist.conf](config6/psmouse-blacklist.conf)
+  * Touchpad config : [50-synaptics.conf](A04_01/50-synaptics.conf) , to create in ``/etc/X11/xorg.conf.d``
+  * Blacklist psmouse : [psmouse-blacklist.conf](A04_01/psmouse-blacklist.conf)
   * [HiDPI tweaks](HiDPI)
   
 # A03
@@ -39,11 +39,11 @@ rest. BIOS are listed from the most recent to the oldest
   * Kernel: 3.19.0-15-generic
   * Kernel Parameter: none
   * Distribution: Ubuntu 15.04
-  * Touchpad config : [50-synaptics.conf](config9/50-synaptics.conf) , to create in ``/etc/X11/xorg.conf.d``
+  * Touchpad config : [50-synaptics.conf](A03_03/50-synaptics.conf) , to create in ``/etc/X11/xorg.conf.d``
     - Mid-button emulation with left+right tap
-  * Blacklist psmouse as it seems causing X to be unstable: [psmouse-blacklist.conf](config6/psmouse-blacklist.conf)
-  * TTY consoles font improvements : [console-setup](config9/console-setup) , overwrite the existing one in ``/etc/default/``
-  * Disable Bluetooth and apply TTY's font improvements at boot : [rc.local](config9/rc.local) , overwrite the existing one in ``/etc/``
+  * Blacklist psmouse as it seems causing X to be unstable: [psmouse-blacklist.conf](A04_01/psmouse-blacklist.conf)
+  * TTY consoles font improvements : [console-setup](A03_03/console-setup) , overwrite the existing one in ``/etc/default/``
+  * Disable Bluetooth and apply TTY's font improvements at boot : [rc.local](A03_03/rc.local) , overwrite the existing one in ``/etc/``
   * Cons: none
   * Sound works like a charm. Internal mic, speakers and headset automatic switch: it's all working well
 
@@ -73,7 +73,7 @@ rest. BIOS are listed from the most recent to the oldest
   * Distri: Kubuntu 15.04 Beta 1 (kubuntu-15.04-beta1-desktop-amd64)
   * Pro: Everything seems to be working fine, including audio (haven't had time to test thoroughly yet).
   * Cons: Microphone might not work? (not tested)
-  * Custom HiDPI config : [90-eDP1.conf](config7/90-eDP1.conf) in `/usr/share/X11/xorg.conf.d`
+  * Custom HiDPI config : [90-eDP1.conf](A02_01/90-eDP1.conf) in `/usr/share/X11/xorg.conf.d`
 
 ##CONFIG #A02_02 (by [@kumy] (https://github.com/kumy))
   * Kernel: 3.19.0-16-generic #16-Ubuntu SMP
