@@ -5,7 +5,7 @@ rest. BIOS are listed from the most recent to the oldest
 
 # A04
 
-##CONFIG 6  (by [@mpalourdio] (https://github.com/mpalourdio))
+##CONFIG #A04_01  (by [@mpalourdio] (https://github.com/mpalourdio))
   * BIOS A04
   * Kernel:  3.19.0-15-generic #15-Ubuntu SMP
   * Kernel Parameter: none
@@ -18,7 +18,7 @@ rest. BIOS are listed from the most recent to the oldest
   
 # A03
 
-##CONFIG 2 (by [@soleblaze](https://github.com/soleblaze))
+##CONFIG #A03_01 (by [@soleblaze](https://github.com/soleblaze))
  * BIOS: A03
  * Kernel: 4.1-rc3 ([linux-xps9343](https://github.com/soleblaze/linux-xps13-9343/tree/testing) testing)
  * Kernel Parameters: i915.enable_rc6=1 i915.enable_fbc=1 i915.lvds_downclock=1 pcie_aspm=force
@@ -28,7 +28,7 @@ rest. BIOS are listed from the most recent to the oldest
  * Pros: touchpad and sound work.
  * Cons: palm detection does not work
 
-##CONFIG 8  (by [@xbcrespo] (https://github.com/xbcrespo))
+##CONFIG #A03_02  (by [@xbcrespo] (https://github.com/xbcrespo))
   * BIOS A03
   * Kernel: 3.16.0-4 
   * Kernel Parameter: none
@@ -37,7 +37,7 @@ rest. BIOS are listed from the most recent to the oldest
   * Wifi config : Follow the next tutorial: [Broadcom drivers](https://wiki.debian.org/wl)
   * Sound is working, altough I had to select "Speakers" in the sound configuration menu (Gnome 3)
 
-##CONFIG 9  (by [@alessio] (https://github.com/alessio))
+##CONFIG #A03_03  (by [@alessio] (https://github.com/alessio))
   * BIOS A03
   * Touchpad firmware A00 (http://downloads.dell.com/FOLDER02883019M/1/9343_Firmware_T792T_WN32_18.1.48_A00.EXE)
   * Kernel: 3.19.0-15-generic
@@ -51,7 +51,7 @@ rest. BIOS are listed from the most recent to the oldest
   * Cons: none
   * Sound works like a charm. Internal mic, speakers and headset automatic switch: it's all working well
 
-##CONFIG 11 (by [@rpbaptist] (https://github.com/rpbaptist))
+##CONFIG #A03_04 (by [@rpbaptist] (https://github.com/rpbaptist))
   * BIOS A03
   * Kernel 4.0 ([Patched as instructed here](http://forthescience.org/blog/2015/04/21/installing_ubuntu_14_04_on_the_new_dell_xps_13_v2/))
   * Kernel Parameter: pcie_aspm=force i915.i915_enable_fbc=1
@@ -61,7 +61,7 @@ rest. BIOS are listed from the most recent to the oldest
   * Con: With these kernel params and custom touchpad configuration things are pretty good. Battery life is now around 10 hours. I got a stuck key once, but consider it an anamoly at this point.
   * Boot mode: UEFI
 
-##CONFIG 12 (by [@linquize] (https://github.com/linquize))
+##CONFIG #A03_05 (by [@linquize] (https://github.com/linquize))
 * BIOS A03
 * Touchpad firmware A00
 * Kernel: 3.19.0-18-generic #18-Ubuntu SMP
@@ -73,7 +73,7 @@ rest. BIOS are listed from the most recent to the oldest
 
 # A02
 
-##CONFIG 7  (by [@pcolby] (https://github.com/pcolby))
+##CONFIG #A02_01  (by [@pcolby] (https://github.com/pcolby))
   * BIOS A02
   * Kernel: 3.18.0-13-generic #14-Ubuntu SMP
   * Kernel Parameter: None
@@ -82,7 +82,7 @@ rest. BIOS are listed from the most recent to the oldest
   * Cons: Microphone might not work? (not tested)
   * Custom HiDPI config : [90-eDP1.conf](config7/90-eDP1.conf) in `/usr/share/X11/xorg.conf.d`
 
-##CONFIG 10  (by [@kumy] (https://github.com/kumy))
+##CONFIG #A02_02  (by [@kumy] (https://github.com/kumy))
   * BIOS A02
   * Kernel: 3.19.0-16-generic #16-Ubuntu SMP
   * Kernel Parameter: None
@@ -94,7 +94,7 @@ rest. BIOS are listed from the most recent to the oldest
 
 # A01
 
-##CONFIG 3  (by [@mpalourdio] (https://github.com/mpalourdio))
+##CONFIG #A01_01  (by [@mpalourdio] (https://github.com/mpalourdio))
  * BIOS A01
  * Kernel: 3.16.0-30-generic (#40-14.04.1-Ubuntu)
  * Kernel Parameter: psmouse.resetafter=0 && acpi_osi="!Windows 2013"
@@ -104,7 +104,7 @@ rest. BIOS are listed from the most recent to the oldest
  * Stock kernel (3.13) has sound all the time
  * 3.16.x has very poor wifi (intel 7265), 3.13 doens't have this problem.
 
-##CONFIG 4  (by [@mpalourdio] (https://github.com/mpalourdio))
+##CONFIG #A01_02  (by [@mpalourdio] (https://github.com/mpalourdio))
  * BIOS A01
  * Kernel: 3.18.7 and/or 3.18.8 and/or 3.19.1/3.19.2 (3.19.0 = kernel panic)
  * Kernel Parameter: psmouse.resetafter=0 && acpi_osi="!Windows 2013"
@@ -113,7 +113,7 @@ rest. BIOS are listed from the most recent to the oldest
  * Poor wifi (intel 7265). Fix : iwconfig wlan0 power off => seems much better with 3.18.8/3.19.1 and last linux firmware.
  * Cons : Microphone doesn't work. Suspend mode doesn't work all the time. Sometines, touchpad jumbs to screen border. Dmesg populated with message
 
-##CONFIG 5  (by [@timdj] (https://github.com/timdj))
+##CONFIG #A01_03  (by [@timdj] (https://github.com/timdj))
  * BIOS A01
  * Kernel: 4.0-rc1 custom build with patched i2c-hid and hid-multitouch
  * Kernel Parameter: acpi_osi="!Windows 2013" pmouse.resetafter=0 i915.enable_fbc=1 i915.lvds_downclock=1 pcie_aspm=force i915.enable_psr=1
@@ -126,9 +126,9 @@ rest. BIOS are listed from the most recent to the oldest
    - Microphone not working
  * after using kernel parameters above and installing tlp my idle power usage (low brightness QHD+ screen) is down to 3.16W with WiFi / 3.03W withouth WiFi
 
-# Unknown BIOS
+# A00
 
-##CONFIG 1  (by [@janhenke] (https://github.com/janhenke))
+##CONFIG #A00_01  (by [@janhenke] (https://github.com/janhenke))
  * Kernel: 3.16.0-30-generic (Ubuntu 14.10)
  * Kernel Parameter: none
  * Pro: Touchpad works perfectly
