@@ -11,6 +11,12 @@ See the collected configurations [here](configurations.md) (ordered by BIOS vers
 ~~BIOS A03 is [out] (http://www.dell.com/support/home/en/en/nldhs1/Drivers/DriversDetails?driverId=XY677)~~  
 BIOS A04 is [out] (http://www.dell.com/support/home/us/en/04/Drivers/DriversDetails?driverId=133FN)
 
+## DELL patches/firmwares/drivers
+
+[Ubuntu 14.04 Touchpad Freezing Fix – XPS (2015)](http://en.community.dell.com/support-forums/software-os/f/3525/t/19631683?dgc=SM&cid=259487&lid=5521379)  
+[Touchpad firmware A00] (http://downloads.dell.com/FOLDER02883019M/1/9343_Firmware_T792T_WN32_18.1.48_A00.EXE) - Installs under windows only :(  
+[XPS13 2015 drivers page] (http://www.dell.com/support/home/us/en/04/product-support/product/xps-13-9343-laptop/drivers)  
+
 ## Actual situation
 From **A01**, linux support is quite decent. The different encountered problems can be :
  - touchpad freezing (i2c / ps2 mode)
@@ -24,21 +30,14 @@ It should give you something like ``DLL0665:01 06CB:76AD UNKNOWN`` if i2c mode i
 
 Anyway, you should upgrade BIOS to the latest version (at your own risk !). To upgrade, download the BIOS .exe, and save it in ``/boot/efi``. Double-check the checksum, reboot, press F12 and patch.
 
-## Other resources
-[major.io website] (https://major.io/2015/02/03/linux-support-dell-xps-13-9343-2015-model/) ([@major] (https://github.com/major))  
-[Barton's blog last update, announcing BIOS A01] (http://bartongeorge.net/2015/02/23/update-2-dell-xps-13-laptop-developer-edition-sputnik-gen-4/)  
-[Kernel bug ticket for the sound issue] (https://bugzilla.kernel.org/show_bug.cgi?id=93361) by [@major] (https://github.com/major)    
-[Patch for the touchpad] (http://lkml.iu.edu/hypermail/linux/kernel/1502.2/02389.html)  
-[XPS13 2015 drivers page] (http://www.dell.com/support/home/us/en/04/product-support/product/xps-13-9343-laptop/drivers)  
-[Dell XPS 13 2015 model 9343 on Ubuntu 15.04, dmidecode, lsusb, lspci] (https://gist.github.com/semenko/60015029e13c1de65ff6) by [@semenko] (https://github.com/semenko)  
-[Patch that you can apply to 3.18 or 3.19 kernels that eliminates the trackpad freeze] (https://bugzilla.redhat.com/attachment.cgi?id=990188) by [@major] (https://github.com/major)  
-[Installing ubuntu 14.04 on the new Dell XPS 13](http://forthescience.org/blog/2015/04/21/installing_ubuntu_14_04_on_the_new_dell_xps_13_v2)  
-[Ubuntu 14.04 Touchpad Freezing Fix – XPS (2015)](http://en.community.dell.com/support-forums/software-os/f/3525/t/19631683?dgc=SM&cid=259487&lid=5521379)  
-[Touchpad firmware A00] (http://downloads.dell.com/FOLDER02883019M/1/9343_Firmware_T792T_WN32_18.1.48_A00.EXE) - Installs under windows only :(  
-IRC : #xps13 (freenode)
-
 **Quote about the repeating keystroke issue (Author ?)**  
 ``Someone asked about the fix for the repeating keypresses. Yes, it was traced back to the source and will be fixed on all affected Dell platforms soon. I just saw that the one for 9343 was promoted to our factories so should be up on support.dell.com any day now as BIOS A01``
+
+## Other resources
+[major.io website] (https://major.io/2015/02/03/linux-support-dell-xps-13-9343-2015-model/) ([@major] (https://github.com/major))  
+[Barton's blog last update, announcing BIOS A01] (http://bartongeorge.net/2015/02/23/update-2-dell-xps-13-laptop-developer-edition-sputnik-gen-4/)
+[Installing ubuntu 14.04 on the new Dell XPS 13](http://forthescience.org/blog/2015/04/21/installing_ubuntu_14_04_on_the_new_dell_xps_13_v2)
+IRC : #xps13 (freenode)
 
 ## What about you ?
 If you (are able to) use linux on this computer, please specify :
