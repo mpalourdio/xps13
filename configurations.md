@@ -3,6 +3,18 @@
 Configurations are organised by BIOS, since it has impact on all the
 rest. BIOS are listed from the most recent to the oldest
 
+# A04
+
+##CONFIG 6  (by [@mpalourdio] (https://github.com/mpalourdio))
+  * BIOS A04
+  * Kernel:  3.19.0-15-generic #15-Ubuntu SMP
+  * Kernel Parameter: none
+  * Distri : Linux Mint 17.1 Rebecca
+  * Pro: Microphone ok / Touchscreen works / Sound ok
+  * Cons : Suspend / Hibernate mode doesn't work all the time, no palmdetect (i2c mode)
+  * Touchpad config : [50-synaptics.conf](config6/50-synaptics.conf) , to create in ``/etc/X11/xorg.conf.d``
+  * Blacklist psmouse : [psmouse-blacklist.conf](config6/psmouse-blacklist.conf)
+  
 # A03
 
 ##CONFIG 2 (by [@soleblaze](https://github.com/soleblaze))
@@ -14,16 +26,6 @@ rest. BIOS are listed from the most recent to the oldest
  * Distribution: Arch Linux
  * Pros: touchpad and sound work.
  * Cons: palm detection does not work
-
-##CONFIG 6  (by [@mpalourdio] (https://github.com/mpalourdio))
-  * BIOS A03
-  * Kernel: 3.19.8 mainline kernel
-  * Kernel Parameter: none
-  * Distri : Linux Mint 17.1 Rebecca
-  * Pro: Touchpad works / Touchscreen works / Sound ok
-  * Cons : Microphone doesn't work. Suspend / Hibernate mode doesn't work all the time, no palmdetect (i2c mode)
-  * Touchpad config : [50-synaptics.conf](config6/50-synaptics.conf) , to create in ``/etc/X11/xorg.conf.d``
-  * Blacklist psmouse : [psmouse-blacklist.conf](config6/psmouse-blacklist.conf)
 
 ##CONFIG 8  (by [@xbcrespo] (https://github.com/xbcrespo))
   * BIOS A03
