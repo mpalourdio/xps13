@@ -34,6 +34,7 @@ Anyway, you should upgrade BIOS to the latest version (at your own risk !). To u
 [Patch that you can apply to 3.18 or 3.19 kernels that eliminates the trackpad freeze] (https://bugzilla.redhat.com/attachment.cgi?id=990188) by [@major] (https://github.com/major)  
 [Installing ubuntu 14.04 on the new Dell XPS 13](http://forthescience.org/blog/2015/04/21/installing_ubuntu_14_04_on_the_new_dell_xps_13_v2)  
 [Ubuntu 14.04 Touchpad Freezing Fix – XPS (2015)](http://en.community.dell.com/support-forums/software-os/f/3525/t/19631683?dgc=SM&cid=259487&lid=5521379)  
+[Touchpad firmware A00] (http://downloads.dell.com/FOLDER02883019M/1/9343_Firmware_T792T_WN32_18.1.48_A00.EXE) - Installs under windows only :(  
 IRC : #xps13 (freenode)
 
 **Quote about the repeating keystroke issue (Author ?)**  
