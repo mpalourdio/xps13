@@ -14,6 +14,7 @@ rest. BIOS are listed from the most recent to the oldest
   * Cons : Suspend / Hibernate mode doesn't work all the time, no palmdetect (i2c mode)
   * Touchpad config : [50-synaptics.conf](config6/50-synaptics.conf) , to create in ``/etc/X11/xorg.conf.d``
   * Blacklist psmouse : [psmouse-blacklist.conf](config6/psmouse-blacklist.conf)
+  * [HiDPI tweaks](HiDPI)
   
 # A03
 
