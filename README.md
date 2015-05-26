@@ -2,6 +2,7 @@
 Tips and tricks to make XPS13 2015 work with linux.
 
 ## Contributors configurations
+
 See the collected configurations [here](configurations.md) (ordered by BIOS version)
 
 ## BIOS
@@ -18,6 +19,7 @@ BIOS A04 is [out] (http://www.dell.com/support/home/us/en/04/Drivers/DriversDeta
 [XPS13 2015 drivers page] (http://www.dell.com/support/home/us/en/04/product-support/product/xps-13-9343-laptop/drivers)  
 
 ## Actual situation
+
 From **A01**, linux support is quite decent. The different encountered problems can be :
  - touchpad freezing (i2c / ps2 mode)
  - no sound (or sound after 2 cold reboots of some kernels, depending on boot options)
@@ -34,12 +36,14 @@ Anyway, you should upgrade BIOS to the latest version (at your own risk !). To u
 ``Someone asked about the fix for the repeating keypresses. Yes, it was traced back to the source and will be fixed on all affected Dell platforms soon. I just saw that the one for 9343 was promoted to our factories so should be up on support.dell.com any day now as BIOS A01``
 
 ## Other resources
+
 [major.io website] (https://major.io/2015/02/03/linux-support-dell-xps-13-9343-2015-model/) ([@major] (https://github.com/major))  
 [Barton's blog last update, announcing BIOS A01] (http://bartongeorge.net/2015/02/23/update-2-dell-xps-13-laptop-developer-edition-sputnik-gen-4/)  
 [Installing ubuntu 14.04 on the new Dell XPS 13](http://forthescience.org/blog/2015/04/21/installing_ubuntu_14_04_on_the_new_dell_xps_13_v2)  
 IRC : #xps13 (freenode)
 
 ## What about you ?
+
 If you (are able to) use linux on this computer, please specify :
  - kernel version
  - boot options
