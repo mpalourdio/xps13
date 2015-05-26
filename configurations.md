@@ -5,7 +5,7 @@ rest. BIOS are listed from the most recent to the oldest
 
 # A04
 
-##CONFIG #A04_01  (by [@mpalourdio] (https://github.com/mpalourdio))
+##CONFIG #A04_01 (by [@mpalourdio] (https://github.com/mpalourdio))
   * Kernel:  3.19.0-15-generic #15-Ubuntu SMP
   * Kernel Parameter: none
   * Distri : Linux Mint 17.1 Rebecca
@@ -26,7 +26,7 @@ rest. BIOS are listed from the most recent to the oldest
  * Pros: touchpad and sound work.
  * Cons: palm detection does not work
 
-##CONFIG #A03_02  (by [@xbcrespo] (https://github.com/xbcrespo))
+##CONFIG #A03_02 (by [@xbcrespo] (https://github.com/xbcrespo))
   * Kernel: 3.16.0-4 
   * Kernel Parameter: none
   * Distri : Debian Jessie
@@ -34,7 +34,7 @@ rest. BIOS are listed from the most recent to the oldest
   * Wifi config : Follow the next tutorial: [Broadcom drivers](https://wiki.debian.org/wl)
   * Sound is working, altough I had to select "Speakers" in the sound configuration menu (Gnome 3)
 
-##CONFIG #A03_03  (by [@alessio] (https://github.com/alessio))
+##CONFIG #A03_03 (by [@alessio] (https://github.com/alessio))
   * Touchpad firmware A00 (http://downloads.dell.com/FOLDER02883019M/1/9343_Firmware_T792T_WN32_18.1.48_A00.EXE)
   * Kernel: 3.19.0-15-generic
   * Kernel Parameter: none
@@ -67,7 +67,7 @@ rest. BIOS are listed from the most recent to the oldest
 
 # A02
 
-##CONFIG #A02_01  (by [@pcolby] (https://github.com/pcolby))
+##CONFIG #A02_01 (by [@pcolby] (https://github.com/pcolby))
   * Kernel: 3.18.0-13-generic #14-Ubuntu SMP
   * Kernel Parameter: None
   * Distri: Kubuntu 15.04 Beta 1 (kubuntu-15.04-beta1-desktop-amd64)
@@ -75,7 +75,7 @@ rest. BIOS are listed from the most recent to the oldest
   * Cons: Microphone might not work? (not tested)
   * Custom HiDPI config : [90-eDP1.conf](config7/90-eDP1.conf) in `/usr/share/X11/xorg.conf.d`
 
-##CONFIG #A02_02  (by [@kumy] (https://github.com/kumy))
+##CONFIG #A02_02 (by [@kumy] (https://github.com/kumy))
   * Kernel: 3.19.0-16-generic #16-Ubuntu SMP
   * Kernel Parameter: None
   * Distri: Ubuntu 15.04 (Vivid)
@@ -86,7 +86,7 @@ rest. BIOS are listed from the most recent to the oldest
 
 # A01
 
-##CONFIG #A01_01  (by [@mpalourdio] (https://github.com/mpalourdio))
+##CONFIG #A01_01 (by [@mpalourdio] (https://github.com/mpalourdio))
  * Kernel: 3.16.0-30-generic (#40-14.04.1-Ubuntu)
  * Kernel Parameter: psmouse.resetafter=0 && acpi_osi="!Windows 2013"
  * Distri : Linux Mint 17.1 Rebecca
@@ -95,7 +95,7 @@ rest. BIOS are listed from the most recent to the oldest
  * Stock kernel (3.13) has sound all the time
  * 3.16.x has very poor wifi (intel 7265), 3.13 doens't have this problem.
 
-##CONFIG #A01_02  (by [@mpalourdio] (https://github.com/mpalourdio))
+##CONFIG #A01_02 (by [@mpalourdio] (https://github.com/mpalourdio))
  * Kernel: 3.18.7 and/or 3.18.8 and/or 3.19.1/3.19.2 (3.19.0 = kernel panic)
  * Kernel Parameter: psmouse.resetafter=0 && acpi_osi="!Windows 2013"
  * Distri : Linux Mint 17.1 Rebecca
@@ -103,7 +103,7 @@ rest. BIOS are listed from the most recent to the oldest
  * Poor wifi (intel 7265). Fix : iwconfig wlan0 power off => seems much better with 3.18.8/3.19.1 and last linux firmware.
  * Cons : Microphone doesn't work. Suspend mode doesn't work all the time. Sometines, touchpad jumbs to screen border. Dmesg populated with message
 
-##CONFIG #A01_03  (by [@timdj] (https://github.com/timdj))
+##CONFIG #A01_03 (by [@timdj] (https://github.com/timdj))
  * Kernel: 4.0-rc1 custom build with patched i2c-hid and hid-multitouch
  * Kernel Parameter: acpi_osi="!Windows 2013" pmouse.resetafter=0 i915.enable_fbc=1 i915.lvds_downclock=1 pcie_aspm=force i915.enable_psr=1
  * Distribution : Linux Mint 17.1 Rebecca
@@ -117,7 +117,7 @@ rest. BIOS are listed from the most recent to the oldest
 
 # A00
 
-##CONFIG #A00_01  (by [@janhenke] (https://github.com/janhenke))
+##CONFIG #A00_01 (by [@janhenke] (https://github.com/janhenke))
  * Kernel: 3.16.0-30-generic (Ubuntu 14.10)
  * Kernel Parameter: none
  * Pro: Touchpad works perfectly
