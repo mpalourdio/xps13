@@ -32,7 +32,8 @@ From **A02**, boot options are not needed anymore. Sound will be ok (HDA mode by
 It's still recommended to have a recent kernel (3.17+). Verify your touchpad mode with ``xinput``.  
 It should give you something like ``DLL0665:01 06CB:76AD UNKNOWN`` if i2c mode is on. You could have to blacklist psmouse too. See [here](config6/psmouse-blacklist.conf).
 
-See the collected configurations [here](configurations.md)
+## Contributors configurations
+See the collected configurations [here](configurations.md) (ordered by BIOS version)
  
 ## What about you ?
 If you (are able to) use linux on this computer, please specify :
