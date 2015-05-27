@@ -18,7 +18,7 @@ rest. BIOS are listed from the most recent to the oldest
 ##CONFIG #A04_02 (by [@tombh] (https://github.com/tombh))
   * Kernel:  4.0.0-1-amd64 #1 SMP Debian 4.0.2-1
   * Kernel Parameter: none
-  * PatchesL: None
+  * Patches: None
   * Distro: Debian Sid
   * Pro: Sound, Suspend, no keyboard glitches, no touchpad freezes
   * Cons: Touchpad multitouch, no microphone (haven't tried to fix yet though)
