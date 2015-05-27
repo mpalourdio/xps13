@@ -14,7 +14,16 @@ rest. BIOS are listed from the most recent to the oldest
   * Touchpad config : [50-synaptics.conf](A04_01/50-synaptics.conf) , to create in ``/etc/X11/xorg.conf.d``
   * Blacklist psmouse : [psmouse-blacklist.conf](A04_01/psmouse-blacklist.conf)
   * [HiDPI tweaks](HiDPI)
-  
+
+##CONFIG #A04_02 (by [@tombh] (https://github.com/tombh))
+  * Kernel:  4.0.0-1-amd64 #1 SMP Debian 4.0.2-1
+  * Kernel Parameter: none
+  * Patches: None
+  * Distro: Debian Sid
+  * Pro: Sound, Suspend, no keyboard glitches, no touchpad freezes
+  * Cons: Touchpad multitouch, no microphone (haven't tried to fix yet though)
+  * HiDPI: I find `Xft.dpi: 125` in `~/.Xresources` is the best fit for resolution/font sizes
+
 # A03
 
 ##CONFIG #A03_01 (by [@soleblaze](https://github.com/soleblaze))
@@ -27,7 +36,7 @@ rest. BIOS are listed from the most recent to the oldest
  * Cons: palm detection does not work
 
 ##CONFIG #A03_02 (by [@xbcrespo] (https://github.com/xbcrespo))
-  * Kernel: 3.16.0-4 
+  * Kernel: 3.16.0-4
   * Kernel Parameter: none
   * Distri : Debian Jessie
   * Cons : Mic doesn't work.Touchpad not working properly (touch clicks are not being detected and two-finger gestures block the touchpad)
@@ -122,4 +131,3 @@ rest. BIOS are listed from the most recent to the oldest
  * Kernel Parameter: none
  * Pro: Touchpad works perfectly
  * Con: No audio (at all)
-
