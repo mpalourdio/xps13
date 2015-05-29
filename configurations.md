@@ -35,7 +35,7 @@ rest. BIOS are listed from the most recent to the oldest
   * TTY consoles font improvements : [console-setup](A03_03/console-setup) , overwrite the existing one in ``/etc/default/``
   * Disable Bluetooth and apply TTY's font improvements at boot : [rc.local](A03_03/rc.local) , overwrite the existing one in ``/etc/``
   * Run the following as root to fix webcam corrupted video output (LP: [#1449892](https://launchpad.net/bugs/1449892)):
-    ```echo 'deb http://ppa.launchpad.net/quadrispro/xps13/ubuntu vivid main' > /etc/apt/sources.list.d/alessio.list ; apt-get update ; apt-get upgrade xserver-xorg-video-intel```
+    ```apt-add-repository -y ppa:quadrispro/xps13 ; apt-get update ; apt-get upgrade -y xserver-xorg-video-intel```
   * Cons: none
   * Sound works like a charm. Internal mic, speakers and headset automatic switch: it's all working well
 
