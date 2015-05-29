@@ -24,6 +24,21 @@ rest. BIOS are listed from the most recent to the oldest
   * Cons: Touchpad multitouch, no microphone (haven't tried to fix yet though)
   * HiDPI: I find `Xft.dpi: 125` in `~/.Xresources` is the best fit for resolution/font sizes
 
+##CONFIG #A04_03 (by [@alessio] (https://github.com/alessio))
+  * Touchpad firmware A00 (http://downloads.dell.com/FOLDER02883019M/1/9343_Firmware_T792T_WN32_18.1.48_A00.EXE)
+  * Kernel: 3.19.0-18-generic
+  * Kernel Parameter: none
+  * Distribution: Ubuntu 15.04
+  * Touchpad config : [50-synaptics.conf](A03_03/50-synaptics.conf) , to create in ``/etc/X11/xorg.conf.d``
+    - Mid-button emulation with left+right tap
+  * Blacklist psmouse as it seems causing X to be unstable: [psmouse-blacklist.conf](A04_01/psmouse-blacklist.conf)
+  * TTY consoles font improvements : [console-setup](A03_03/console-setup) , overwrite the existing one in ``/etc/default/``
+  * Disable Bluetooth and apply TTY's font improvements at boot : [rc.local](A03_03/rc.local) , overwrite the existing one in ``/etc/``
+  * Run the following as root to fix webcam corrupted video output (LP: [#1449892](https://launchpad.net/bugs/1449892)):
+    ```echo 'deb http://ppa.launchpad.net/quadrispro/xps13/ubuntu vivid main' > /etc/apt/sources.list.d/alessio.list ; apt-get update ; apt-get upgrade xserver-xorg-video-intel```
+  * Cons: none
+  * Sound works like a charm. Internal mic, speakers and headset automatic switch: it's all working well
+
 # A03
 
 ##CONFIG #A03_01 (by [@soleblaze](https://github.com/soleblaze))
@@ -43,20 +58,7 @@ rest. BIOS are listed from the most recent to the oldest
   * Wifi config : Follow the next tutorial: [Broadcom drivers](https://wiki.debian.org/wl)
   * Sound is working, altough I had to select "Speakers" in the sound configuration menu (Gnome 3)
 
-##CONFIG #A03_03 (by [@alessio] (https://github.com/alessio))
-  * Touchpad firmware A00 (http://downloads.dell.com/FOLDER02883019M/1/9343_Firmware_T792T_WN32_18.1.48_A00.EXE)
-  * Kernel: 3.19.0-15-generic
-  * Kernel Parameter: none
-  * Distribution: Ubuntu 15.04
-  * Touchpad config : [50-synaptics.conf](A03_03/50-synaptics.conf) , to create in ``/etc/X11/xorg.conf.d``
-    - Mid-button emulation with left+right tap
-  * Blacklist psmouse as it seems causing X to be unstable: [psmouse-blacklist.conf](A04_01/psmouse-blacklist.conf)
-  * TTY consoles font improvements : [console-setup](A03_03/console-setup) , overwrite the existing one in ``/etc/default/``
-  * Disable Bluetooth and apply TTY's font improvements at boot : [rc.local](A03_03/rc.local) , overwrite the existing one in ``/etc/``
-  * Cons: none
-  * Sound works like a charm. Internal mic, speakers and headset automatic switch: it's all working well
-
-##CONFIG #A03_04 (by [@rpbaptist] (https://github.com/rpbaptist))
+##CONFIG #A03_03 (by [@rpbaptist] (https://github.com/rpbaptist))
   * Kernel 4.0 ([Patched as instructed here](http://forthescience.org/blog/2015/04/21/installing_ubuntu_14_04_on_the_new_dell_xps_13_v2/))
   * Kernel Parameter: pcie_aspm=force i915.i915_enable_fbc=1
   * Distribution: Linux Mint 17.1
@@ -65,7 +67,7 @@ rest. BIOS are listed from the most recent to the oldest
   * Con: With these kernel params and custom touchpad configuration things are pretty good. Battery life is now around 10 hours. I got a stuck key once, but consider it an anamoly at this point.
   * Boot mode: UEFI
 
-##CONFIG #A03_05 (by [@linquize] (https://github.com/linquize))
+##CONFIG #A03_04 (by [@linquize] (https://github.com/linquize))
   * Touchpad firmware A00
   * Kernel: 3.19.0-18-generic #18-Ubuntu SMP
   * Kernel Parameter: None
