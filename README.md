@@ -14,7 +14,6 @@ BIOS A04 is [out] (http://www.dell.com/support/home/us/en/04/Drivers/DriversDeta
 
 ## DELL patches/firmwares/drivers
 
-[Ubuntu 14.04 Touchpad Freezing Fix – XPS (2015)](http://en.community.dell.com/support-forums/software-os/f/3525/t/19631683?dgc=SM&cid=259487&lid=5521379)  
 [Touchpad firmware A00] (http://downloads.dell.com/FOLDER02883019M/1/9343_Firmware_T792T_WN32_18.1.48_A00.EXE) - Installs under windows only :(  
 [XPS13 2015 drivers page] (http://www.dell.com/support/home/us/en/04/product-support/product/xps-13-9343-laptop/drivers)  
 
