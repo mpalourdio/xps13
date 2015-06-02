@@ -6,6 +6,7 @@ rest. BIOS are listed from the most recent to the oldest
 # A04
 
 ##CONFIG #A04_01 (by [@mpalourdio] (https://github.com/mpalourdio))
+  * QHD version, i7-5600u, intel 7265 wifi
   * Kernel:  3.19.0-15-generic #15-Ubuntu SMP
   * Kernel Parameters: i915.enable_rc6=1 i915.lvds_downclock=1 pcie_aspm=force
   * Distri : Linux Mint 17.1 Rebecca
@@ -98,6 +99,7 @@ rest. BIOS are listed from the most recent to the oldest
 # A01
 
 ##CONFIG #A01_01 (by [@mpalourdio] (https://github.com/mpalourdio))
+ * QHD version, i7-5600u, intel 7265 wifi
  * Kernel: 3.16.0-30-generic (#40-14.04.1-Ubuntu)
  * Kernel Parameters: psmouse.resetafter=0 && acpi_osi="!Windows 2013"
  * Distri : Linux Mint 17.1 Rebecca
@@ -107,6 +109,7 @@ rest. BIOS are listed from the most recent to the oldest
  * 3.16.x has very poor wifi (intel 7265), 3.13 doens't have this problem.
 
 ##CONFIG #A01_02 (by [@mpalourdio] (https://github.com/mpalourdio))
+ * QHD version, i7-5600u, intel 7265 wifi
  * Kernel: 3.18.7 and/or 3.18.8 and/or 3.19.1/3.19.2 (3.19.0 = kernel panic)
  * Kernel Parameters: psmouse.resetafter=0 && acpi_osi="!Windows 2013"
  * Distri : Linux Mint 17.1 Rebecca
