@@ -46,6 +46,7 @@ IRC : #xps13 (freenode)
 ## What about you ?
 
 If you (are able to) use linux on this computer, please specify :
+ - your xps13 model (FHD/QHD, CPU, wifi chipset)
  - kernel version
  - boot options
  - pros/cons of this combo
