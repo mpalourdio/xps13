@@ -22,7 +22,7 @@ BIOS A04 is [out] (http://www.dell.com/support/home/us/en/04/Drivers/DriversDeta
 From **A01**, linux support is quite decent. The different encountered problems can be :
  - touchpad freezing (i2c / ps2 mode)
  - no sound (or sound after 2 cold reboots of some kernels, depending on boot options)
- - ~~repeating keystroke issue (should be fixed with BIOS A01)~~ (fixed with BIOS A01)
+ - ~~repeating keystroke issue (should be fixed with BIOS A01)~~ (fixed with BIOS A01 & A04)
  - ?
  
 From **A02**, boot options are not needed anymore. Sound will be ok (HDA mode by default) and touchpad will be in i2c mode as ``!Windows 2013`` is not needed anymore to make audio work!  
