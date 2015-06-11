@@ -42,6 +42,7 @@ Anyway, you should upgrade BIOS to the latest version (at your own risk !). To u
 [Barton's blog last update, announcing BIOS A01] (http://bartongeorge.net/2015/02/23/update-2-dell-xps-13-laptop-developer-edition-sputnik-gen-4/)  
 [Installing ubuntu 14.04 on the new Dell XPS 13](http://forthescience.org/blog/2015/04/21/installing_ubuntu_14_04_on_the_new_dell_xps_13_v2)  
 [Promising patches from Matthew Garret about reducing power consumption on Haswell and Broadwell systems] (https://mjg59.dreamwidth.org/34868.html)  
+[ArchWiki dedicated to Dell XPS 13 (2015)] (https://wiki.archlinux.org/index.php/Dell_XPS_13_%282015%29)  
 IRC : #xps13 (freenode)
 
 ## What about you ?
