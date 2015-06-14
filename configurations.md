@@ -30,8 +30,7 @@ rest. BIOS are listed from the most recent to the oldest
   * Kernel: 3.19.0-18-generic
   * Kernel Parameters: none
   * Distribution: Ubuntu 15.04
-  * Touchpad config : [50-synaptics.conf](A03_03/50-synaptics.conf) , to create in ``/etc/X11/xorg.conf.d``
-    - Mid-button emulation with left+right tap
+  * Touchpad config: Put [configure_touchpad.sh](alessio/configure_touchpad.sh) somewhere and add it to the list of startup applications with `gnome-session-properties` to enable palm detect and mid-button emulation with left+right tap.
   * Blacklist psmouse as it seems causing X to be unstable: [psmouse-blacklist.conf](A04_01/psmouse-blacklist.conf)
   * TTY consoles font improvements : [console-setup](A03_03/console-setup) , overwrite the existing one in ``/etc/default/``
   * Disable Bluetooth and apply TTY's font improvements at boot : [rc.local](A03_03/rc.local) , overwrite the existing one in ``/etc/``
