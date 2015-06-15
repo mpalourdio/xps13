@@ -9,7 +9,7 @@ rest. BIOS are listed from the most recent to the oldest
   * QHD version, i7-5600u, intel 7265 wifi
   * Kernel:  3.19.0-15-generic #15-Ubuntu SMP
   * Kernel Parameters: i915.enable_rc6=1 i915.lvds_downclock=1 pcie_aspm=force
-  * Distri : Linux Mint 17.1 Rebecca
+  * Distribution: Linux Mint 17.1 Rebecca
   * Pro: Microphone ok / Touchscreen works / Sound ok
   * Cons : Suspend / Hibernate mode doesn't work all the time, no palmdetect (i2c mode)
   * Touchpad config : [50-synaptics.conf](A04_01/50-synaptics.conf) , to create in ``/etc/X11/xorg.conf.d``
