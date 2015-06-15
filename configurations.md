@@ -35,8 +35,9 @@ rest. BIOS are listed from the most recent to the oldest
   * Blacklist psmouse as it seems causing X to be unstable: [psmouse-blacklist.conf](A04_01/psmouse-blacklist.conf)
   * TTY consoles font improvements : [console-setup](A03_03/console-setup) , overwrite the existing one in ``/etc/default/``
   * Disable Bluetooth and apply TTY's font improvements at boot : [rc.local](A03_03/rc.local) , overwrite the existing one in ``/etc/``
-  * Cons: none
+  * Scale GRUB menu: [HiDPI tweaks](HiDPI/grub.md)
   * Sound works like a charm. Internal mic, speakers and headset automatic switch: it's all working well
+  * Cons: none
 
 ##CONFIG #A04_04 (by [@rpbaptist] (https://github.com/rpbaptist))
   * Kernel 4.0 ([Patched as instructed here](http://forthescience.org/blog/2015/04/21/installing_ubuntu_14_04_on_the_new_dell_xps_13_v2/))
