@@ -27,15 +27,16 @@ rest. BIOS are listed from the most recent to the oldest
 
 ##CONFIG #A04_03 (by [@alessio] (https://github.com/alessio))
   * Touchpad firmware A00 (http://downloads.dell.com/FOLDER02883019M/1/9343_Firmware_T792T_WN32_18.1.48_A00.EXE)
-  * Kernel: 3.19.0-18-generic
-  * Kernel Parameters: none
+  * Kernel: 3.19.0-20-generic
+  * Kernel Parameters: `video=vesafb:ywrap,mtrr:3 i915.enable_rc6=1 i915.lvds_downclock=1 pcie_aspm=force`
   * Distribution: Ubuntu 15.04
   * Touchpad config: Put [configure_touchpad.sh](alessio/configure_touchpad.sh) somewhere and add it to the list of startup applications with `gnome-session-properties` to enable palm detect and mid-button emulation with left+right tap.
   * Blacklist psmouse as it seems causing X to be unstable: [psmouse-blacklist.conf](A04_01/psmouse-blacklist.conf)
   * TTY consoles font improvements : [console-setup](A03_03/console-setup) , overwrite the existing one in ``/etc/default/``
   * Disable Bluetooth and apply TTY's font improvements at boot : [rc.local](A03_03/rc.local) , overwrite the existing one in ``/etc/``
-  * Cons: none
+  * Scale GRUB menu: [HiDPI tweaks](HiDPI/grub.md)
   * Sound works like a charm. Internal mic, speakers and headset automatic switch: it's all working well
+  * Cons: none
 
 ##CONFIG #A04_04 (by [@rpbaptist] (https://github.com/rpbaptist))
   * Kernel 4.0 ([Patched as instructed here](http://forthescience.org/blog/2015/04/21/installing_ubuntu_14_04_on_the_new_dell_xps_13_v2/))
