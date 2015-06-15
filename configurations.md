@@ -27,8 +27,8 @@ rest. BIOS are listed from the most recent to the oldest
 
 ##CONFIG #A04_03 (by [@alessio] (https://github.com/alessio))
   * Touchpad firmware A00 (http://downloads.dell.com/FOLDER02883019M/1/9343_Firmware_T792T_WN32_18.1.48_A00.EXE)
-  * Kernel: 3.19.0-18-generic
-  * Kernel Parameters: none
+  * Kernel: 3.19.0-20-generic
+  * Kernel Parameters: `video=vesafb:ywrap,mtrr:3 i915.enable_rc6=1 i915.lvds_downclock=1 pcie_aspm=force`
   * Distribution: Ubuntu 15.04
   * Touchpad config : [50-synaptics.conf](A03_03/50-synaptics.conf) , to create in ``/etc/X11/xorg.conf.d``
     - Mid-button emulation with left+right tap
