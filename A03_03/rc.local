@@ -11,7 +11,7 @@
 #
 # By default this script does nothing.
 
-setupcon
+setupcon --force
 rfkill block bluetooth
 
 exit 0
