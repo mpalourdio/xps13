@@ -32,7 +32,8 @@ rest. BIOS are listed from the most recent to the oldest
   * Distribution: Ubuntu 15.04
   * Touchpad config: Put [configure_touchpad.sh](alessio/configure_touchpad.sh) somewhere and add it to the list of startup applications with `gnome-session-properties` to enable palm detect and mid-button emulation with left+right tap.
   * Blacklist psmouse as it seems causing X to be unstable: [psmouse-blacklist.conf](A04_01/psmouse-blacklist.conf)
-  * TTY consoles font improvements : [console-setup](A03_03/console-setup) , overwrite the existing one in ``/etc/default/``
+  * TTY consoles font improvements: [console-setup](A03_03/console-setup) , overwrite the existing one in ``/etc/default/``
+    - This is needed to workaround [Debian bug#759657](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=759657)
   * Disable Bluetooth and apply TTY's font improvements at boot : [rc.local](A03_03/rc.local) , overwrite the existing one in ``/etc/``
   * Scale GRUB menu: [HiDPI tweaks](HiDPI/grub.md)
   * Sound works like a charm. Internal mic, speakers and headset automatic switch: it's all working well
