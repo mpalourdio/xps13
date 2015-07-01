@@ -48,6 +48,15 @@ rest. BIOS are listed from the most recent to the oldest
   * Con: Touchpad palm detection not working. (ic2) Sound over displayport appears randomly. Cannot enable manually.
   * Boot mode: UEFI
 
+##CONFIG #A04_05 (by [@kumy] (https://github.com/kumy))
+  * Kernel: 3.19.0-21-generic
+  * Kernel Parameters: None
+  * Distri: Ubuntu 15.04 (Vivid)
+  * Pro: Everything seems to be working fine.
+  * Cons: Microphone might not work? (not tested)
+  * Boot mode UEFI
+  * Wireless channels 12 and 13 are not available for use: [debian wiki](https://wiki.debian.org/wl#Known_Issues)
+
 # A03
 
 ##CONFIG #A03_01 (by [@soleblaze](https://github.com/soleblaze))
@@ -85,15 +94,6 @@ rest. BIOS are listed from the most recent to the oldest
   * Pro: Everything seems to be working fine, including audio (haven't had time to test thoroughly yet).
   * Cons: Microphone might not work? (not tested)
   * Custom HiDPI config : [90-eDP1.conf](A02_01/90-eDP1.conf) in `/usr/share/X11/xorg.conf.d`
-
-##CONFIG #A02_02 (by [@kumy] (https://github.com/kumy))
-  * Kernel: 3.19.0-16-generic #16-Ubuntu SMP
-  * Kernel Parameters: None
-  * Distri: Ubuntu 15.04 (Vivid)
-  * Pro: Everything seems to be working fine.
-  * Cons: Microphone might not work? (not tested)
-  * Boot mode UEFI
-  * Wireless channels 12 and 13 are not available for use: [debian wiki](https://wiki.debian.org/wl#Known_Issues)
 
 # A01
 
