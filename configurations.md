@@ -57,6 +57,28 @@ rest. BIOS are listed from the most recent to the oldest
   * Boot mode UEFI
   * Wireless channels 12 and 13 are not available for use: [debian wiki](https://wiki.debian.org/wl#Known_Issues)
 
+##CONFIG #A04_06 (by [@bric3](https://github.com/bric3))
+  * Kernel: 4.1.2-040102-generic (installed from [ubuntu mainline builds](https://wiki.ubuntu.com/Kernel/MainlineBuilds) [4.1.2-unstable](http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.1.2-unstable/))
+  * Kernel Parameters: None
+  * Patches: No patches applied manually
+  * Distribution: Ubuntu Gnome 15.04 (Vivid)
+  * Wifi driver : [build for 4.1+](https://launchpad.net/ubuntu/+source/bcmwl/6.30.223.248+bdcom-0ubuntu3/+build/7418309) as [recommended by this Dell guy](http://en.community.dell.com/techcenter/os-applications/f/4613/p/19638068/20780337#20780337)
+  * Touchpad config : [`50-synaptics.conf`](A04_06/50-synaptics.conf) to put in `/etc/X11/xorg.conf.d/`
+    * No button softarea (_à la Apple Trackpad_)
+    * Third finger is the middle button on regular mouse (i.e. it pastes)
+    * Also disabled [GNOME settings daemon](https://wiki.archlinux.org/index.php/Touchpad_Synaptics#GNOME.2FCinnamon) as it overrides my X11 config (no equivalent in GNOME settings dialog)
+    * Disabled mouse
+  * Touchscreen disabled : [`99-no-touchscreen.conf`](A04_06/99-no-touchscreen.conf) to put in `/etc/X11/xorg.conf.d/`
+  * Pro: Almost everything seem to work fine
+  * Cons:
+    * I had to install (reinstall) manually drivers Bluetooth and Wifi to make it work well
+    * Nasty trackpad bug in the kernel fixed in 4.1, but still palm detection nat working well, trackpad not disabled when typing (b/c Gnome settings disabled)
+  * Boot mode: BIOS
+  * HiDPI stuff:
+    * Applied all (application and external displays) tricks from Arch Linux [wiki](https://wiki.archlinux.org/index.php/HiDPI)
+    * And those [tweaks](HiDPI) by [@mpalourdio](https://github.com/mpalourdio)
+
+
 # A03
 
 ##CONFIG #A03_01 (by [@soleblaze](https://github.com/soleblaze))
