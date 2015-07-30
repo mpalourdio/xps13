@@ -10,7 +10,8 @@ See the collected configurations [here](configurations.md) (ordered by BIOS vers
 ~~BIOS A01 is [out] (http://www.dell.com/support/home/us/en/04/Drivers/DriversDetails?driverID=RHPC0)~~  
 ~~BIOS A02 is [out] (http://www.dell.com/support/home/en/en/nldhs1/Drivers/DriversDetails?driverId=F2PRR)~~  
 ~~BIOS A03 is [out] (http://www.dell.com/support/home/en/en/nldhs1/Drivers/DriversDetails?driverId=XY677)~~  
-BIOS A04 is [out] (http://www.dell.com/support/home/us/en/04/Drivers/DriversDetails?driverId=133FN)
+~~BIOS A04 is [out] (http://www.dell.com/support/home/us/en/04/Drivers/DriversDetails?driverId=133FN)~~  
+BIOS A05 is [out] (http://www.dell.com/support/home/us/en/04/Drivers/DriversDetails?driverID=YMRTD)
 
 ## DELL patches/firmwares/drivers
 
