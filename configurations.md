@@ -3,6 +3,19 @@
 Configurations are organised by BIOS, since it has impact on all the
 rest. BIOS are listed from the most recent to the oldest
 
+# A05
+
+##CONFIG #A05_01 (by [@kumy] (https://github.com/kumy))
+  * Kernel: 3.19.0-26-generic
+  * Kernel Parameters: None
+  * Distri: Ubuntu 15.04 (Vivid)
+  * Pro: Everything seems to be working fine.
+  * Cons:
+    - Microphone might not work? (not tested)
+    - Problems with Mini Display Port, second screen goes black (not related to #A05, but Ubuntu)
+  * Boot mode UEFI
+  * Wireless channels 12 and 13 are not available for use: [debian wiki](https://wiki.debian.org/wl#Known_Issues)
+
 # A04
 
 ##CONFIG #A04_01 (by [@mpalourdio] (https://github.com/mpalourdio))
@@ -47,15 +60,6 @@ rest. BIOS are listed from the most recent to the oldest
   * Pro: Wifi works, sound, headphone detection, microphone.
   * Con: Touchpad palm detection not working. (ic2) Sound over displayport appears randomly. Cannot enable manually.
   * Boot mode: UEFI
-
-##CONFIG #A04_05 (by [@kumy] (https://github.com/kumy))
-  * Kernel: 3.19.0-21-generic
-  * Kernel Parameters: None
-  * Distri: Ubuntu 15.04 (Vivid)
-  * Pro: Everything seems to be working fine.
-  * Cons: Microphone might not work? (not tested)
-  * Boot mode UEFI
-  * Wireless channels 12 and 13 are not available for use: [debian wiki](https://wiki.debian.org/wl#Known_Issues)
 
 ##CONFIG #A04_06 (by [@bric3](https://github.com/bric3))
   * Kernel: 4.1.2-040102-generic (installed from [ubuntu mainline builds](https://wiki.ubuntu.com/Kernel/MainlineBuilds) [4.1.2-unstable](http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.1.2-unstable/))
