@@ -20,7 +20,7 @@ rest. BIOS are listed from the most recent to the oldest
   * Model: XPS 13 9343-6782 (Core i7-5600U, FullHD non-touchscreen, Intel 7265 Wifi)
   * Distribution: Debian Jessie 8.1
   * Boot mode: UEFI
-  * Kernel: 4.1.0-0.bpo.1-amd64
+  * Kernel: 4.1.3-1~bpo8+1 (2015-08-12)
   * Kernel Parameters: None
   * Patches: No patches applied manually
   * Specific packages used:
