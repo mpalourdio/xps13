@@ -16,6 +16,35 @@ rest. BIOS are listed from the most recent to the oldest
   * Boot mode UEFI
   * Wireless channels 12 and 13 are not available for use: [debian wiki](https://wiki.debian.org/wl#Known_Issues)
 
+##CONFIG #A05_02 (by [@timwienk](https://github.com/timwienk))
+  * Model: XPS 13 9343-6782 (Core i7-5600U, FullHD non-touchscreen, Intel 7265 Wifi)
+  * Distribution: Debian Jessie 8.1
+  * Boot mode: UEFI
+  * Kernel: 4.1.3-1~bpo8+1 (2015-08-12)
+  * Kernel Parameters: None
+  * Patches: No patches applied manually
+  * Specific packages used:
+    - firmware-iwlwifi (>= 0.44, from jessie-backports, non-free) - [wiki page](https://wiki.debian.org/iwlwifi)
+      + *Note:* Models with broadcom card have no use for these drivers, look at [this page](https://wiki.debian.org/wl) instead
+      + Installed from backports to work with 4.x kernel
+    - linux-image-amd64 (>= 4.1+66, from jessie-backports)
+      + With this newer kernel audio works completely (including microphone)
+      + Audio still in HDA mode (if used in I2C mode on previous boot (i.e. in Windows), an extra cold boot is needed after booting once to switch to HDA)
+    - xserver-xorg-video-intel (>= 2:2.99, from jessie-backports)
+      + This newer version is required for DRI to work with the broadwell CPU
+  * Config files:
+    - Disable IPS (Intermediate Pixel Storage): [/etc/modprobe.d/i915.conf](A05_02/i915.conf)
+    - Swap HDA devices: [/etc/modprobe.d/intel-hda.conf](A05_02/intel-hda.conf)
+    - Blacklist psmouse: [/etc/modprobe.d/psmouse-blacklist.conf](A05_02/psmouse-blacklist.conf)
+    - User specific xsession (with touchpad settings): [~/.xsession](A05_02/.xsession)
+  * Untested:
+    - Bluetooth
+    - Actual DisplayPort output (only tested with HDMI adapter)
+  * Other accessories used:
+    - Dell 470-ABBT, USB 3 to Ethernet adapter (rtl8153 chip, works out of the box)
+    - Dell 470-13629, Mini DisplayPort to HDMI adapter (works out of the box)
+    - Dell 460-BBGZ, Padded sleeve with pocket (officially for 12" Dell notebooks, pocket used for accessories + charger, fits perfectly)
+
 # A04
 
 ##CONFIG #A04_01 (by [@mpalourdio] (https://github.com/mpalourdio))
