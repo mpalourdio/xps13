@@ -12,11 +12,13 @@ See the collected configurations [here](configurations.md) (ordered by BIOS vers
 ~~BIOS A03 is [out] (http://www.dell.com/support/home/en/en/nldhs1/Drivers/DriversDetails?driverId=XY677)~~  
 ~~BIOS A04 is [out] (http://www.dell.com/support/home/us/en/04/Drivers/DriversDetails?driverId=133FN)~~  
 BIOS A05 is [out] (http://www.dell.com/support/home/us/en/04/Drivers/DriversDetails?driverID=YMRTD)
+BIOS A06 coming  [soon] (http://bartongeorge.net/2015/08/28/recent-fixes-for-xps-13-developer-edition/)
 
 ## DELL patches/firmwares/drivers
 
 [Touchpad firmware A00] (http://downloads.dell.com/FOLDER02883019M/1/9343_Firmware_T792T_WN32_18.1.48_A00.EXE) - Installs under windows only :(  
 [XPS13 2015 drivers page] (http://www.dell.com/support/home/us/en/04/product-support/product/xps-13-9343-laptop/drivers)  
+[DisplayLink Ubuntu drivers] (http://www.displaylink.com/downloads/ubuntu.php) - Make Dell D300, D3100 docks & DA100 external video adapter compatible
 
 ## Actual situation
 
