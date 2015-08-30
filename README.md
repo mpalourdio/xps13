@@ -11,7 +11,7 @@ See the collected configurations [here](configurations.md) (ordered by BIOS vers
 ~~BIOS A02 is [out] (http://www.dell.com/support/home/en/en/nldhs1/Drivers/DriversDetails?driverId=F2PRR)~~  
 ~~BIOS A03 is [out] (http://www.dell.com/support/home/en/en/nldhs1/Drivers/DriversDetails?driverId=XY677)~~  
 ~~BIOS A04 is [out] (http://www.dell.com/support/home/us/en/04/Drivers/DriversDetails?driverId=133FN)~~  
-BIOS A05 is [out] (http://www.dell.com/support/home/us/en/04/Drivers/DriversDetails?driverID=YMRTD)
+BIOS A05 is [out] (http://www.dell.com/support/home/us/en/04/Drivers/DriversDetails?driverID=YMRTD)  
 BIOS A06 coming  [soon] (http://bartongeorge.net/2015/08/28/recent-fixes-for-xps-13-developer-edition/)
 
 ## DELL patches/firmwares/drivers
