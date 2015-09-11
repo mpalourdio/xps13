@@ -47,8 +47,8 @@ Anyway, you should upgrade BIOS to the latest version (at your own risk !). To u
 [Promising patches from Matthew Garret about reducing power consumption on Haswell and Broadwell systems] (https://mjg59.dreamwidth.org/34868.html)  
 [ArchWiki dedicated to Dell XPS 13 (2015)] (https://wiki.archlinux.org/index.php/Dell_XPS_13_%282015%29)  
 [DebianOn documentation on the Dell XPS 13 9343 (Early 2015)] (https://wiki.debian.org/InstallingDebianOn/Dell/Dell%20XPS%2013%209343)  
-[Blog post about issues and resolving them]
-(http://hgdev.co/installing-ubuntu-15-04-on-the-xps-13-9343-2015-a-complete-guide/)
+[Install Ubuntu 15.04 on the Dell XPS 13 9343 (2015) : A complete guide]
+(http://hgdev.co/installing-ubuntu-15-04-on-the-dell-xps-13-9343-2015-a-complete-guide-update/)
 
 IRC : #xps13 (freenode)
 
