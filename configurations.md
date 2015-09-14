@@ -45,6 +45,21 @@ rest. BIOS are listed from the most recent to the oldest
     - Dell 470-13629, Mini DisplayPort to HDMI adapter (works out of the box)
     - Dell 460-BBGZ, Padded sleeve with pocket (officially for 12" Dell notebooks, pocket used for accessories + charger, fits perfectly)
 
+##CONFIG #A05_03 (by [@alessio] (https://github.com/alessio))
+  * QHD Touchscreen version, Intel i7-5600U, Intel 7265 WiFi
+  * Touchpad firmware A00 (http://downloads.dell.com/FOLDER02883019M/1/9343_Firmware_T792T_WN32_18.1.48_A00.EXE)
+  * Kernel: 3.19.0-28-generic
+  * Kernel Parameters: `video=vesafb:ywrap,mtrr:3 i915.enable_rc6=1 i915.lvds_downclock=1 pcie_aspm=force`
+  * Distribution: Ubuntu 15.04
+  * Touchpad config: Put [configure_touchpad.sh](alessio/configure_touchpad.sh) somewhere and add it to the list of startup applications with `gnome-session-properties` to enable palm detect and mid-button emulation with left+right tap.
+  * Blacklist psmouse as it seems causing X to be unstable: [psmouse-blacklist.conf](A04_01/psmouse-blacklist.conf)
+  * TTY consoles font improvements: [console-setup](A03_03/console-setup) , overwrite the existing one in ``/etc/default/``
+    - This is needed to workaround [Debian bug#759657](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=759657)
+  * Disable Bluetooth and apply TTY's font improvements at boot : [rc.local](A03_03/rc.local) , overwrite the existing one in ``/etc/``
+  * Scale GRUB menu: [HiDPI tweaks](HiDPI/grub.md)
+  * Sound works like a charm. Internal mic, speakers and headset automatic switch: it's all working well
+  * Cons: none
+
 # A04
 
 ##CONFIG #A04_01 (by [@mpalourdio] (https://github.com/mpalourdio))
@@ -67,21 +82,7 @@ rest. BIOS are listed from the most recent to the oldest
   * Cons: Touchpad multitouch, no microphone (haven't tried to fix yet though)
   * HiDPI: I find `Xft.dpi: 125` in `~/.Xresources` is the best fit for resolution/font sizes
 
-##CONFIG #A04_03 (by [@alessio] (https://github.com/alessio))
-  * Touchpad firmware A00 (http://downloads.dell.com/FOLDER02883019M/1/9343_Firmware_T792T_WN32_18.1.48_A00.EXE)
-  * Kernel: 3.19.0-20-generic
-  * Kernel Parameters: `video=vesafb:ywrap,mtrr:3 i915.enable_rc6=1 i915.lvds_downclock=1 pcie_aspm=force`
-  * Distribution: Ubuntu 15.04
-  * Touchpad config: Put [configure_touchpad.sh](alessio/configure_touchpad.sh) somewhere and add it to the list of startup applications with `gnome-session-properties` to enable palm detect and mid-button emulation with left+right tap.
-  * Blacklist psmouse as it seems causing X to be unstable: [psmouse-blacklist.conf](A04_01/psmouse-blacklist.conf)
-  * TTY consoles font improvements: [console-setup](A03_03/console-setup) , overwrite the existing one in ``/etc/default/``
-    - This is needed to workaround [Debian bug#759657](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=759657)
-  * Disable Bluetooth and apply TTY's font improvements at boot : [rc.local](A03_03/rc.local) , overwrite the existing one in ``/etc/``
-  * Scale GRUB menu: [HiDPI tweaks](HiDPI/grub.md)
-  * Sound works like a charm. Internal mic, speakers and headset automatic switch: it's all working well
-  * Cons: none
-
-##CONFIG #A04_04 (by [@rpbaptist] (https://github.com/rpbaptist))
+##CONFIG #A04_03 (by [@rpbaptist] (https://github.com/rpbaptist))
   * Kernel 4.0 ([Patched as instructed here](http://forthescience.org/blog/2015/04/21/installing_ubuntu_14_04_on_the_new_dell_xps_13_v2/))
   * Kernel Parameters: pcie_aspm=force i915.i915_enable_fbc=1
   * Distribution: Linux Mint 17.1
@@ -90,7 +91,7 @@ rest. BIOS are listed from the most recent to the oldest
   * Con: Touchpad palm detection not working. (ic2) Sound over displayport appears randomly. Cannot enable manually.
   * Boot mode: UEFI
 
-##CONFIG #A04_06 (by [@bric3](https://github.com/bric3))
+##CONFIG #A04_04 (by [@bric3](https://github.com/bric3))
   * Kernel: 4.1.2-040102-generic (installed from [ubuntu mainline builds](https://wiki.ubuntu.com/Kernel/MainlineBuilds) [4.1.2-unstable](http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.1.2-unstable/))
   * Kernel Parameters: None
   * Patches: No patches applied manually
