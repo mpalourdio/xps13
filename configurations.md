@@ -6,15 +6,16 @@ rest. BIOS are listed from the most recent to the oldest
 # A05
 
 ##CONFIG #A05_01 (by [@kumy] (https://github.com/kumy))
-  * Kernel: 3.19.0-26-generic
+  * Kernel: 3.19.0-30-generic
   * Kernel Parameters: None
   * Distri: Ubuntu 15.04 (Vivid)
   * Pro: Everything seems to be working fine.
   * Cons:
     - Microphone might not work? (not tested)
-    - Problems with Mini Display Port, second screen goes black (not related to #A05, but Ubuntu)
+    - Mouse flickering on main screen while using Docking Station.
   * Boot mode UEFI
   * Wireless channels 12 and 13 are not available for use: [debian wiki](https://wiki.debian.org/wl#Known_Issues)
+  * Docking Station D3100 working with one HDPI and one DisplayPort. Driver: 1.0.138
 
 ##CONFIG #A05_02 (by [@timwienk](https://github.com/timwienk))
   * Model: XPS 13 9343-6782 (Core i7-5600U, FullHD non-touchscreen, Intel 7265 Wifi)
