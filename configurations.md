@@ -3,6 +3,23 @@
 Configurations are organised by BIOS, since it has impact on all the
 rest. BIOS are listed from the most recent to the oldest
 
+# A06
+
+##CONFIG #A06_01 (by [@fillier] (https://github.com/fillier))
+  * Model: XPS 13 9434 (Core i5-5200U, Broadcom Wifi)
+  * Kernel: 4.2.0-16-generic
+  * Kernel Parameters: None
+  * Distribution: Ubuntu 15.10 (Wily)
+  * Boot mode UEFI
+  * Specific configurations:
+    - i8k for fan control
+    - smm to disable bios fan control (fights with i8k)
+  * Cons:
+    - using smm 30a3 disables brightness control and power button(s)
+    - battery life seem less than expected
+    - wifi does not always work when resuming
+    - bluetooth connection to logitech H800 headset fails
+    
 # A05
 
 ##CONFIG #A05_01 (by [@kumy] (https://github.com/kumy))
