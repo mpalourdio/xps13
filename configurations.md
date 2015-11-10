@@ -8,17 +8,23 @@ rest. BIOS are listed from the most recent to the oldest
 ##CONFIG #A06_01 (by [@fillier] (https://github.com/fillier))
   * Model: XPS 13 9434 (Core i5-5200U, Broadcom Wifi)
   * Kernel: 4.2.0-16-generic
-  * Kernel Parameters: None
+  * Kernel Parameters: pcie_aspm=force i915.enable_fbc=1 i915.enable_rc6=7
   * Distribution: Ubuntu 15.10 (Wily)
   * Boot mode UEFI
   * Specific configurations:
     - i8k for fan control
     - smm to disable bios fan control (fights with i8k)
+    - tlp for power management
+    - psensor to monitor temps and fan speed
+    - blacklisted psmouse
+    - enabled TearFree xorg.conf
   * Cons:
     - using smm 30a3 disables brightness control and power button(s)
-    - battery life seem less than expected
-    - wifi does not always work when resuming
-    - bluetooth connection to logitech H800 headset fails
+    - ~~battery life seem less than expected~~ (better since using tlp)
+    - wifi does not always work when resuming (haven't seen this happen for a while)
+    - ~~bluetooth connection to logitech H800 headset fails~~ (see notes)
+  * Notes:
+    - Followed instructions here: [http://askubuntu.com/a/632348] and got bluetooth fully working with Logitech M557 Mouse and Logitech H800 headset.
     
 # A05
 
