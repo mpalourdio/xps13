@@ -20,9 +20,9 @@ rest. BIOS are listed from the most recent to the oldest
     - enabled TearFree xorg.conf
   * Cons:
     - using smm 30a3 disables brightness control and power button(s)
-    ~~- battery life seem less than expected~~ (better since using tlp)
+    - ~~battery life seem less than expected~~ (better since using tlp)
     - wifi does not always work when resuming (haven't seen this happen for a while)
-    ~~- bluetooth connection to logitech H800 headset fails~~ (see notes)
+    - ~~bluetooth connection to logitech H800 headset fails~~ (see notes)
   * Notes:
     - Followed instructions here: [http://askubuntu.com/a/632348] and got bluetooth fully working with Logitech M557 Mouse and Logitech H800 headset.
     
