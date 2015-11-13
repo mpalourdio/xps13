@@ -51,6 +51,7 @@ Anyway, you should upgrade BIOS to the latest version (at your own risk!). To up
 * [DebianOn documentation on the Dell XPS 13 9343 (Early 2015)] (https://wiki.debian.org/InstallingDebianOn/Dell/Dell%20XPS%2013%209343)
 * [Install Ubuntu 15.04 on the Dell XPS 13 9343 (2015): A complete guide]
 (http://hgdev.co/installing-ubuntu-15-04-on-the-dell-xps-13-9343-2015-a-complete-guide-update/)
+* [Repository of issues with the XPS 13 (2015) Developer Edition](https://github.com/advancingu/XPS13Linux/issues)
 
 IRC: #xps13 (freenode)
 
