@@ -6,7 +6,7 @@ rest. BIOS are listed from the most recent to the oldest
 # A06
 
 ##CONFIG #A06_01 (by [@fillier] (https://github.com/fillier))
-  * Model: XPS 13 9434 (Core i5-5200U, Broadcom Wifi)
+  * Model: XPS 13 9343 (Core i5-5200U, Broadcom Wifi)
   * Kernel: 4.2.0-16-generic
   * Kernel Parameters: pcie_aspm=force i915.enable_fbc=1 i915.enable_rc6=7
   * Distribution: Ubuntu 15.10 (Wily)
