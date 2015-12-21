@@ -21,6 +21,7 @@ BIOS A07 is [out] (http://www.dell.com/support/home/us/en/04/Drivers/DriversDeta
  
 ## DELL patches/firmwares/drivers
 
+* [QHD Patch to disable automatic adaptative brightness] (https://drive.google.com/file/d/0BwSnIxxl4kxkbXdSX2FkNE5OR1E/view?pli=1) - Installs under windows only :worried:
 * [Touchpad firmware A00] (http://downloads.dell.com/FOLDER02883019M/1/9343_Firmware_T792T_WN32_18.1.48_A00.EXE) - Installs under windows only :worried:
 * [XPS13 2015 drivers page] (http://www.dell.com/support/home/us/en/04/product-support/product/xps-13-9343-laptop/drivers)
 * [DisplayLink Ubuntu drivers] (http://www.displaylink.com/downloads/ubuntu.php) - Make Dell D300, D3100 docks & DA100 external video adapter compatible
