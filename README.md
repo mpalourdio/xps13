@@ -19,7 +19,7 @@ BIOS A07 is [out] (http://www.dell.com/support/home/us/en/04/Drivers/DriversDeta
  - 1.Improve Double Key issue  
  - 2.Add Support for Ubuntu PTT feature
 
->After downloading a BIOS `.exe` file from one of the links above, perform the following steps to install:
+>After downloading a BIOS `.exe` file from one of the links above, you can install the update by copying the `.exe` file to `/boot/efi`. Alternatively, you may install the updat via a USB device:
  1. Copy the downloaded file to a USB flash device. It does not need to be bootable.
  2. Insert the USB flash device into any USB port.
  3. Power on the system.
