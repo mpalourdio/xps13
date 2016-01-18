@@ -18,7 +18,21 @@ BIOS A07 is [out] (http://www.dell.com/support/home/us/en/04/Drivers/DriversDeta
 
  - 1.Improve Double Key issue  
  - 2.Add Support for Ubuntu PTT feature
- 
+
+>After downloading a BIOS `.exe` file from one of the links above, you can install the update by copying the `.exe` file to `/boot/efi`. Alternatively, you may install the update via a USB device:
+ 1. Copy the downloaded file to a USB flash device. It does not need to be bootable.
+ 2. Insert the USB flash device into any USB port.
+ 3. Power on the system.
+ 4. At the DELL logo screen, press F12 to access the one time boot menu.
+ 5. Select BIOS Flash Update in the Other Options section.
+ 6. Click on the ... button to browse the USB flash device to locate the downloaded file.
+ 7. Select the file and click Ok.
+ 8. Confirm the Existing System BIOS Information and the BIOS Update Information are as expected.
+ 9. Click Begin Flash Update.
+ 10. Reviewing the Warning message and click Yes to proceed with the update.
+ 11. The system should restart and show a Flash Progress bar on the Dell logo screen as the BIOS update is being performed.
+ 12. The system will restart once again when the Flash update is complete.
+
 ## DELL patches/firmwares/drivers
 
 * [QHD Patch to disable automatic adaptative brightness] (https://drive.google.com/file/d/0BwSnIxxl4kxkbXdSX2FkNE5OR1E/view?pli=1) - Installs under windows only :worried:
