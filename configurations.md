@@ -3,6 +3,38 @@
 Configurations are organised by BIOS, since it has impact on all the
 rest. BIOS are listed from the most recent to the oldest
 
+# A07
+
+##CONFIG #A07_01 (by [@timwienk](https://github.com/timwienk))
+  * Model: XPS 13 9343-6782 (Core i7-5600U, FullHD non-touchscreen, Intel 7265 Wifi)
+  * Distribution: Debian Jessie 8.3
+  * Boot mode: UEFI
+  * Kernel: 4.3.3-7~bpo8+1 (2016-01-19)
+  * Kernel Parameters: None
+  * Patches: No patches applied manually
+  * Specific packages used:
+    - firmware-iwlwifi (>= 20151018, from jessie-backports, non-free) - [wiki page](https://wiki.debian.org/iwlwifi)
+      + *Note:* Models with broadcom card have no use for these drivers, look at [this page](https://wiki.debian.org/wl) instead (not tested by me, though)
+      + Installed from backports to work with 4.x kernel
+    - linux-image-amd64 (>= 4.1+66, from jessie-backports)
+      + With this newer kernel audio works completely (including microphone)
+      + Audio still in HDA mode (if used in I2C mode on previous boot (i.e. in Windows), an extra cold boot is needed after booting once to switch to HDA)
+    - xserver-xorg-video-intel (>= 2:2.99, from jessie-backports)
+      + This newer version is required for DRI to work with the broadwell CPU
+  * Config files:
+    - Swap HDA devices: [/etc/modprobe.d/intel-hda.conf](A07_01/intel-hda.conf)
+    - Blacklist psmouse: [/etc/modprobe.d/psmouse-blacklist.conf](A07_01/psmouse-blacklist.conf)
+    - User specific xsession (with touchpad settings): [~/.xsession](A07_01/.xsession)
+  * Untested:
+    - Bluetooth
+    - Actual DisplayPort output (only tested with HDMI adapter)
+  * Known issues:
+    - No palm detection on touchpad
+  * Other accessories used:
+    - Dell 470-ABBT, USB 3 to Ethernet adapter (rtl8153 chip, works out of the box)
+    - Dell 470-13629, Mini DisplayPort to HDMI adapter (works out of the box)
+    - Dell 460-BBGZ, Padded sleeve with pocket (officially for 12" Dell notebooks, pocket used for accessories + charger, fits perfectly)
+
 # A06
 
 ##CONFIG #A06_01 (by [@fillier] (https://github.com/fillier))
@@ -40,36 +72,7 @@ rest. BIOS are listed from the most recent to the oldest
   * Wireless channels 12 and 13 are not available for use: [debian wiki](https://wiki.debian.org/wl#Known_Issues)
   * Docking Station D3100 working with one HDPI and one DisplayPort. Driver: 1.0.138
 
-##CONFIG #A05_02 (by [@timwienk](https://github.com/timwienk))
-  * Model: XPS 13 9343-6782 (Core i7-5600U, FullHD non-touchscreen, Intel 7265 Wifi)
-  * Distribution: Debian Jessie 8.1
-  * Boot mode: UEFI
-  * Kernel: 4.1.3-1~bpo8+1 (2015-08-12)
-  * Kernel Parameters: None
-  * Patches: No patches applied manually
-  * Specific packages used:
-    - firmware-iwlwifi (>= 0.44, from jessie-backports, non-free) - [wiki page](https://wiki.debian.org/iwlwifi)
-      + *Note:* Models with broadcom card have no use for these drivers, look at [this page](https://wiki.debian.org/wl) instead
-      + Installed from backports to work with 4.x kernel
-    - linux-image-amd64 (>= 4.1+66, from jessie-backports)
-      + With this newer kernel audio works completely (including microphone)
-      + Audio still in HDA mode (if used in I2C mode on previous boot (i.e. in Windows), an extra cold boot is needed after booting once to switch to HDA)
-    - xserver-xorg-video-intel (>= 2:2.99, from jessie-backports)
-      + This newer version is required for DRI to work with the broadwell CPU
-  * Config files:
-    - Disable IPS (Intermediate Pixel Storage): [/etc/modprobe.d/i915.conf](A05_02/i915.conf)
-    - Swap HDA devices: [/etc/modprobe.d/intel-hda.conf](A05_02/intel-hda.conf)
-    - Blacklist psmouse: [/etc/modprobe.d/psmouse-blacklist.conf](A05_02/psmouse-blacklist.conf)
-    - User specific xsession (with touchpad settings): [~/.xsession](A05_02/.xsession)
-  * Untested:
-    - Bluetooth
-    - Actual DisplayPort output (only tested with HDMI adapter)
-  * Other accessories used:
-    - Dell 470-ABBT, USB 3 to Ethernet adapter (rtl8153 chip, works out of the box)
-    - Dell 470-13629, Mini DisplayPort to HDMI adapter (works out of the box)
-    - Dell 460-BBGZ, Padded sleeve with pocket (officially for 12" Dell notebooks, pocket used for accessories + charger, fits perfectly)
-
-##CONFIG #A05_03 (by [@alessio] (https://github.com/alessio))
+##CONFIG #A05_02 (by [@alessio] (https://github.com/alessio))
   * QHD Touchscreen version, Intel i7-5600U, Intel 7265 WiFi
   * Touchpad firmware A00 (http://downloads.dell.com/FOLDER02883019M/1/9343_Firmware_T792T_WN32_18.1.48_A00.EXE)
   * Kernel: 4.2.0-16-generic
