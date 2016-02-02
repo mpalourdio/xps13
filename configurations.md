@@ -34,6 +34,18 @@ rest. BIOS are listed from the most recent to the oldest
     - Dell 470-ABBT, USB 3 to Ethernet adapter (rtl8153 chip, works out of the box)
     - Dell 470-13629, Mini DisplayPort to HDMI adapter (works out of the box)
     - Dell 460-BBGZ, Padded sleeve with pocket (officially for 12" Dell notebooks, pocket used for accessories + charger, fits perfectly)
+    
+##CONFIG #A07_02 (by [@mpalourdio] (https://github.com/mpalourdio))
+  * QHD version, i7-5600u, intel 7265 wifi
+  * Kernel:  3.19.0-15-generic #15-Ubuntu SMP
+  * Kernel Parameters: i915.enable_rc6=1 i915.lvds_downclock=1 pcie_aspm=force
+  * Distribution: Linux Mint 17.3 Rebecca
+  * Pro: Microphone ok / Touchscreen works / Sound ok
+  * Cons : Suspend / Hibernate mode doesn't work all the time, no palmdetect (i2c mode)
+  * Touchpad config : [50-synaptics.conf](A07_02/50-synaptics.conf) , to create in ``/etc/X11/xorg.conf.d``
+  * Blacklist psmouse : [psmouse-blacklist.conf](A07_02/psmouse-blacklist.conf)
+  * [HiDPI tweaks](HiDPI)
+  * Dell D3100 docking station. [Tweaked installed script](A07_02/displaylink-installer.sh). Driver v1.0.335
 
 # A06
 
@@ -70,7 +82,7 @@ rest. BIOS are listed from the most recent to the oldest
     - Mouse flickering on main screen while using Docking Station.
   * Boot mode UEFI
   * Wireless channels 12 and 13 are not available for use: [debian wiki](https://wiki.debian.org/wl#Known_Issues)
-  * Docking Station D3100 working with one HDPI and one DisplayPort. Driver: 1.0.138
+  * Docking Station D3100 working with one HDMI and one DisplayPort. Driver: 1.0.138
 
 ##CONFIG #A05_02 (by [@alessio] (https://github.com/alessio))
   * QHD Touchscreen version, Intel i7-5600U, Intel 7265 WiFi
@@ -79,7 +91,7 @@ rest. BIOS are listed from the most recent to the oldest
   * Kernel Parameters: `video=vesafb:ywrap,mtrr:3 i915.enable_rc6=1 i915.lvds_downclock=1 pcie_aspm=force`
   * Distribution: Ubuntu 15.10
   * Touchpad config: Put [configure_touchpad.sh](alessio/configure_touchpad.sh) somewhere and add it to the list of startup applications with `gnome-session-properties` to enable palm detect and mid-button emulation with left+right tap.
-  * Blacklist psmouse as it seems causing X to be unstable: [psmouse-blacklist.conf](A04_01/psmouse-blacklist.conf)
+  * Blacklist psmouse as it seems causing X to be unstable: [psmouse-blacklist.conf](A07_02/psmouse-blacklist.conf)
   * TTY consoles font improvements: [console-setup](A03_03/console-setup) , overwrite the existing one in ``/etc/default/``
     - This is needed to workaround [Debian bug#759657](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=759657)
   * Disable Bluetooth and apply TTY's font improvements at boot : [rc.local](A03_03/rc.local) , overwrite the existing one in ``/etc/``
@@ -88,17 +100,6 @@ rest. BIOS are listed from the most recent to the oldest
   * Cons: none
 
 # A04
-
-##CONFIG #A04_01 (by [@mpalourdio] (https://github.com/mpalourdio))
-  * QHD version, i7-5600u, intel 7265 wifi
-  * Kernel:  3.19.0-15-generic #15-Ubuntu SMP
-  * Kernel Parameters: i915.enable_rc6=1 i915.lvds_downclock=1 pcie_aspm=force
-  * Distribution: Linux Mint 17.1 Rebecca
-  * Pro: Microphone ok / Touchscreen works / Sound ok
-  * Cons : Suspend / Hibernate mode doesn't work all the time, no palmdetect (i2c mode)
-  * Touchpad config : [50-synaptics.conf](A04_01/50-synaptics.conf) , to create in ``/etc/X11/xorg.conf.d``
-  * Blacklist psmouse : [psmouse-blacklist.conf](A04_01/psmouse-blacklist.conf)
-  * [HiDPI tweaks](HiDPI)
 
 ##CONFIG #A04_02 (by [@tombh] (https://github.com/tombh))
   * Kernel:  4.0.0-1-amd64 #1 SMP Debian 4.0.2-1
