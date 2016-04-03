@@ -339,7 +339,7 @@ check_requirements()
 
   # Required kernel version
   MIN_KVER="3.14"
-  MAX_KVER="3.19"
+  MAX_KVER="4.4"
   KVER=$(uname -r)
 
   version_lt $KVER $MIN_KVER &&
