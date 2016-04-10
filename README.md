@@ -50,7 +50,7 @@ From **A01**, linux support is quite decent. The different encountered problems 
  
 From **A02**, boot options are not needed anymore. Sound will be ok (HDA mode by default) and touchpad will be in i2c mode as ``!Windows 2013`` is not needed anymore to make audio work!  
 It's still recommended to have a recent kernel (3.17+). Verify your touchpad mode with ``xinput``.  
-It should give you something like ``DLL0665:01 06CB:76AD UNKNOWN`` if i2c mode is on. You could have to blacklist psmouse too. See [here](A04_01/psmouse-blacklist.conf).
+It should give you something like ``DLL0665:01 06CB:76AD UNKNOWN`` if i2c mode is on. You could have to blacklist psmouse too. See [here](A07_02/psmouse-blacklist.conf).
 
 BIOS **A04**: ``relevant things to linux are: keyboard repeat delay, fix an intermittent hang up at POST, update EC, update CPU microcode,  intel platform trust technology updates``
 
