@@ -37,11 +37,12 @@ rest. BIOS are listed from the most recent to the oldest
     
 ##CONFIG #A07_02 (by [@mpalourdio] (https://github.com/mpalourdio))
   * QHD version, i7-5600u, intel 7265 wifi
-  * Kernel: 4.4.0-15-generic #31~14.04.1-Ubuntu SMP
+  * Kernel: 4.4.0-18-generic #34~14.04.1-Ubuntu SMP
   * Kernel Parameters: i915.enable_rc6=1 i915.lvds_downclock=1 pcie_aspm=force
   * Distribution: Linux Mint 17.3 Rebecca
   * Pro: Microphone ok / Touchscreen works / Sound ok
-  * Cons : Suspend / Hibernate mode doesn't work all the time, no palmdetect (i2c mode)
+  * Cons : Suspend / Hibernate mode doesn't work all the time
+  * Palmdetect and disable touchpad when typing work now
   * Touchpad config : [50-synaptics.conf](A07_02/50-synaptics.conf) , to create in ``/etc/X11/xorg.conf.d``
   * Blacklist psmouse : [psmouse-blacklist.conf](A07_02/psmouse-blacklist.conf)
   * [HiDPI tweaks](HiDPI)
