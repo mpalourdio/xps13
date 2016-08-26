@@ -20,7 +20,6 @@ BIOS A08 is [out] (http://www.dell.com/support/Home/us/en/19/Drivers/DriversDeta
  - 1. ACPI FACS security vulnerability
  - 2. Fixed [PSE029675][Dino]CPU capped at 0.48GHz after resume from sleep with dell power companion.
  - 3. Fixed touchpad may sometimes freeze in Setup and OS.
- - 4. Fixed [PSE032996] need to input G or g for 3 times to be recognized on windows login
 
 >After downloading a BIOS `.exe` file from one of the links above, you can install the update by copying the `.exe` file to `/boot/efi`. Alternatively, you may install the update via a USB device:
  1. Copy the downloaded file to a USB flash device. It does not need to be bootable.
