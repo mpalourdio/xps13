@@ -14,7 +14,8 @@ See the collected configurations [here](configurations.md) (ordered by BIOS vers
 ~~BIOS A04 is [out] (http://www.dell.com/support/home/us/en/04/Drivers/DriversDetails?driverId=133FN)~~  
 ~~BIOS A05 is [out] (http://www.dell.com/support/home/us/en/04/Drivers/DriversDetails?driverID=YMRTD)~~  
 ~~BIOS A06 coming [soon] (http://bartongeorge.net/2015/08/28/recent-fixes-for-xps-13-developer-edition/)~~  
-BIOS A07 is [out] (http://www.dell.com/support/home/us/en/04/Drivers/DriversDetails?driverId=28M21)  
+~~BIOS A07 is [out] (http://www.dell.com/support/home/us/en/04/Drivers/DriversDetails?driverId=28M21)~~  
+BIOS A08 is [out] (http://www.dell.com/support/Home/us/en/19/Drivers/DriversDetails?driverId=KTW00) 
 
  - 1.Improve Double Key issue  
  - 2.Add Support for Ubuntu PTT feature
