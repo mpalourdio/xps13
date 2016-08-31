@@ -15,11 +15,13 @@ See the collected configurations [here](configurations.md) (ordered by BIOS vers
 ~~BIOS A05 is [out] (http://www.dell.com/support/home/us/en/04/Drivers/DriversDetails?driverID=YMRTD)~~  
 ~~BIOS A06 coming [soon] (http://bartongeorge.net/2015/08/28/recent-fixes-for-xps-13-developer-edition/)~~  
 ~~BIOS A07 is [out] (http://www.dell.com/support/home/us/en/04/Drivers/DriversDetails?driverId=28M21)~~  
-BIOS A08 is [out] (http://www.dell.com/support/Home/us/en/19/Drivers/DriversDetails?driverId=KTW00) 
+~~BIOS A08 is [out] (http://www.dell.com/support/Home/us/en/19/Drivers/DriversDetails?driverId=KTW00)~~   
+BIOS A09 is [out](http://www.dell.com/support/home/us/en/04/Drivers/DriversDetails?driverId=MNWHN)
 
- - 1. ACPI FACS security vulnerability
- - 2. Fixed [PSE029675][Dino]CPU capped at 0.48GHz after resume from sleep with dell power companion.
- - 3. Fixed touchpad may sometimes freeze in Setup and OS.
+- Fixed CPU capped at 0.48GHz after resume from sleep with dell power companion.
+- Fixed touchpad may sometimes freeze in Setup and OS.
+- Fixed G/g password not response in BIOS setting issue.
+- Update suspend/resume protections 
 
 >After downloading a BIOS `.exe` file from one of the links above, you can install the update by copying the `.exe` file to `/boot/efi`. Alternatively, you may install the update via a USB device:
  1. Copy the downloaded file to a USB flash device. It does not need to be bootable.
