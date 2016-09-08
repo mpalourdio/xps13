@@ -3,6 +3,21 @@
 Configurations are organised by BIOS, since it has impact on all the
 rest. BIOS are listed from the most recent to the oldest
 
+# A09
+    
+##CONFIG #A09_01 (by [@mpalourdio] (https://github.com/mpalourdio))
+  * QHD version, i7-5600u, intel 7265 wifi
+  * Kernel: 4.4.0-18-generic #34~14.04.1-Ubuntu SMP
+  * Kernel Parameters: i915.enable_rc6=1 i915.lvds_downclock=1 pcie_aspm=force
+  * Distribution: Linux Mint 17.3 Rebecca
+  * Pro: Microphone ok / Touchscreen works / Sound ok
+  * Cons : Suspend / Hibernate mode doesn't work all the time
+  * Palmdetect and disable touchpad when typing work now
+  * Touchpad config : [50-synaptics.conf](A09_01/50-synaptics.conf) , to create in ``/etc/X11/xorg.conf.d``
+  * Blacklist psmouse : [psmouse-blacklist.conf](A09_01/psmouse-blacklist.conf)
+  * [HiDPI tweaks](HiDPI)
+  * Dell D3100 docking station. [Tweaked installed script](A09_01/displaylink-installer.sh). Driver v1.0.335
+  
 # A07
 
 ##CONFIG #A07_01 (by [@timwienk](https://github.com/timwienk))
@@ -34,19 +49,6 @@ rest. BIOS are listed from the most recent to the oldest
     - Dell 470-ABBT, USB 3 to Ethernet adapter (rtl8153 chip, works out of the box)
     - Dell 470-13629, Mini DisplayPort to HDMI adapter (works out of the box)
     - Dell 460-BBGZ, Padded sleeve with pocket (officially for 12" Dell notebooks, pocket used for accessories + charger, fits perfectly)
-    
-##CONFIG #A07_02 (by [@mpalourdio] (https://github.com/mpalourdio))
-  * QHD version, i7-5600u, intel 7265 wifi
-  * Kernel: 4.4.0-18-generic #34~14.04.1-Ubuntu SMP
-  * Kernel Parameters: i915.enable_rc6=1 i915.lvds_downclock=1 pcie_aspm=force
-  * Distribution: Linux Mint 17.3 Rebecca
-  * Pro: Microphone ok / Touchscreen works / Sound ok
-  * Cons : Suspend / Hibernate mode doesn't work all the time
-  * Palmdetect and disable touchpad when typing work now
-  * Touchpad config : [50-synaptics.conf](A07_02/50-synaptics.conf) , to create in ``/etc/X11/xorg.conf.d``
-  * Blacklist psmouse : [psmouse-blacklist.conf](A07_02/psmouse-blacklist.conf)
-  * [HiDPI tweaks](HiDPI)
-  * Dell D3100 docking station. [Tweaked installed script](A07_02/displaylink-installer.sh). Driver v1.0.335
 
 # A06
 
@@ -92,7 +94,7 @@ rest. BIOS are listed from the most recent to the oldest
   * Kernel Parameters: `video=vesafb:ywrap,mtrr:3 i915.enable_rc6=1 i915.lvds_downclock=1 pcie_aspm=force`
   * Distribution: Ubuntu 15.10
   * Touchpad config: Put [configure_touchpad.sh](alessio/configure_touchpad.sh) somewhere and add it to the list of startup applications with `gnome-session-properties` to enable palm detect and mid-button emulation with left+right tap.
-  * Blacklist psmouse as it seems causing X to be unstable: [psmouse-blacklist.conf](A07_02/psmouse-blacklist.conf)
+  * Blacklist psmouse as it seems causing X to be unstable: [psmouse-blacklist.conf](A09_01/psmouse-blacklist.conf)
   * TTY consoles font improvements: [console-setup](A03_03/console-setup) , overwrite the existing one in ``/etc/default/``
     - This is needed to workaround [Debian bug#759657](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=759657)
   * Disable Bluetooth and apply TTY's font improvements at boot : [rc.local](A03_03/rc.local) , overwrite the existing one in ``/etc/``
