@@ -13,7 +13,7 @@ rest. BIOS are listed from the most recent to the oldest
   * Pro: Microphone ok / Touchscreen works / Sound ok
   * Cons : Suspend / Hibernate mode doesn't work all the time
   * Palmdetect and disable touchpad when typing work now
-  * Touchpad config : [50-synaptics.conf](A09_01/50-synaptics.conf) , to create in ``/etc/X11/xorg.conf.d``
+  * Touchpad config : [50-synaptics.conf](A09_01/50-synaptics.conf) or [90-libinput.conf](A09_01/90-libinput.conf) to create in ``/etc/X11/xorg.conf.d``
   * Blacklist psmouse : [psmouse-blacklist.conf](A09_01/psmouse-blacklist.conf)
   * [HiDPI tweaks](HiDPI)
   * Dell D3100 docking station. [Tweaked installed script](A09_01/displaylink-installer.sh). Driver v1.0.335
