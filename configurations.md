@@ -3,20 +3,20 @@
 Configurations are organised by BIOS, since it has impact on all the
 rest. BIOS are listed from the most recent to the oldest
 
-# A09
+# A11
     
-##CONFIG #A09_01 (by [@mpalourdio] (https://github.com/mpalourdio))
+##CONFIG #A11_01 (by [@mpalourdio] (https://github.com/mpalourdio))
   * QHD version, i7-5600u, intel 7265 wifi
-  * Kernel: 4.4.0-18-generic #34~14.04.1-Ubuntu SMP
+  * Kernel: 4.8.0-42-generic #45~16.04.1-Ubuntu SMP
   * Kernel Parameters: i915.enable_rc6=1 i915.lvds_downclock=1 pcie_aspm=force
-  * Distribution: Linux Mint 17.3 Rebecca
+  * Distribution: Linux Mint 18.1 Sarah
   * Pro: Microphone ok / Touchscreen works / Sound ok
-  * Cons : Suspend / Hibernate mode doesn't work all the time
-  * Palmdetect and disable touchpad when typing work now
-  * Touchpad config : [50-synaptics.conf](A09_01/50-synaptics.conf) or [90-libinput.conf](A09_01/90-libinput.conf) to create in ``/etc/X11/xorg.conf.d``
-  * Blacklist psmouse : [psmouse-blacklist.conf](A09_01/psmouse-blacklist.conf)
+  * Cons : Suspend / Hibernate mode doesn't work all the time (From last months, OK most of the time)
+  * Palmdetect and disable touchpad when typing work now (using libinput)
+  * Touchpad config : [50-synaptics.conf](A11_01/50-synaptics.conf) or [90-libinput.conf](A11_01/90-libinput.conf) to create in ``/etc/X11/xorg.conf.d``
+  * Blacklist psmouse : [psmouse-blacklist.conf](A11_01/psmouse-blacklist.conf)
   * [HiDPI tweaks](HiDPI)
-  * Dell D3100 docking station. [Tweaked installed script](A09_01/displaylink-installer.sh). Driver v1.0.335
+  * Dell D3100 docking station -> DisplayLink drivers v1.3.52
   
 # A07
 
@@ -94,7 +94,7 @@ rest. BIOS are listed from the most recent to the oldest
   * Kernel Parameters: `video=vesafb:ywrap,mtrr:3 i915.enable_rc6=1 i915.lvds_downclock=1 pcie_aspm=force`
   * Distribution: Ubuntu 15.10
   * Touchpad config: Put [configure_touchpad.sh](alessio/configure_touchpad.sh) somewhere and add it to the list of startup applications with `gnome-session-properties` to enable palm detect and mid-button emulation with left+right tap.
-  * Blacklist psmouse as it seems causing X to be unstable: [psmouse-blacklist.conf](A09_01/psmouse-blacklist.conf)
+  * Blacklist psmouse as it seems causing X to be unstable: [psmouse-blacklist.conf](A11_01/psmouse-blacklist.conf)
   * TTY consoles font improvements: [console-setup](A03_03/console-setup) , overwrite the existing one in ``/etc/default/``
     - This is needed to workaround [Debian bug#759657](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=759657)
   * Disable Bluetooth and apply TTY's font improvements at boot : [rc.local](A03_03/rc.local) , overwrite the existing one in ``/etc/``
