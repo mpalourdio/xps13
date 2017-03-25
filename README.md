@@ -8,14 +8,14 @@ See the collected configurations [here](configurations.md) (ordered by BIOS vers
 
 ## BIOS
 
-~~BIOS A01 is [out] (http://www.dell.com/support/home/us/en/04/Drivers/DriversDetails?driverID=RHPC0)~~  
-~~BIOS A02 is [out] (http://www.dell.com/support/home/en/en/nldhs1/Drivers/DriversDetails?driverId=F2PRR)~~  
-~~BIOS A03 is [out] (http://www.dell.com/support/home/en/en/nldhs1/Drivers/DriversDetails?driverId=XY677)~~  
-~~BIOS A04 is [out] (http://www.dell.com/support/home/us/en/04/Drivers/DriversDetails?driverId=133FN)~~  
-~~BIOS A05 is [out] (http://www.dell.com/support/home/us/en/04/Drivers/DriversDetails?driverID=YMRTD)~~  
-~~BIOS A06 coming [soon] (http://bartongeorge.net/2015/08/28/recent-fixes-for-xps-13-developer-edition/)~~  
-~~BIOS A07 is [out] (http://www.dell.com/support/home/us/en/04/Drivers/DriversDetails?driverId=28M21)~~  
-~~BIOS A08 is [out] (http://www.dell.com/support/Home/us/en/19/Drivers/DriversDetails?driverId=KTW00)~~   
+~~BIOS A01 is [out](http://www.dell.com/support/home/us/en/04/Drivers/DriversDetails?driverID=RHPC0)~~  
+~~BIOS A02 is [out](http://www.dell.com/support/home/en/en/nldhs1/Drivers/DriversDetails?driverId=F2PRR)~~  
+~~BIOS A03 is [out](http://www.dell.com/support/home/en/en/nldhs1/Drivers/DriversDetails?driverId=XY677)~~  
+~~BIOS A04 is [out](http://www.dell.com/support/home/us/en/04/Drivers/DriversDetails?driverId=133FN)~~  
+~~BIOS A05 is [out](http://www.dell.com/support/home/us/en/04/Drivers/DriversDetails?driverID=YMRTD)~~  
+~~BIOS A06 coming [soon](http://bartongeorge.net/2015/08/28/recent-fixes-for-xps-13-developer-edition/)~~  
+~~BIOS A07 is [out](http://www.dell.com/support/home/us/en/04/Drivers/DriversDetails?driverId=28M21)~~  
+~~BIOS A08 is [out](http://www.dell.com/support/Home/us/en/19/Drivers/DriversDetails?driverId=KTW00)~~   
 ~~BIOS A09 is [out](http://www.dell.com/support/home/us/en/04/Drivers/DriversDetails?driverId=MNWHN)~~  
 BIOS A11 is [out](http://www.dell.com/support/home/fr/fr/frbsdt1/Drivers/DriversDetails?driverId=MYXCY)
 
