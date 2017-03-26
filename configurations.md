@@ -29,7 +29,7 @@ rest. BIOS are listed from the most recent to the oldest
   * Patches: No patches applied manually
   * Specific packages used:
     - firmware-iwlwifi (>= 20151018, from jessie-backports, non-free) - [wiki page](https://wiki.debian.org/iwlwifi)
-      + *Note:* Models with broadcom card have no use for these drivers, look at [this page](https://wiki.debian.org/wl) instead (not tested by me, though)
+      + *Note:* Models with broadcom card have no use for these drivers. You can boot the kernel with an ethernet connection and do `apt-get install bcmwl-kernel-source` to install the drivers (tested with kernel 4.3.0-generic) or look at [this page](https://wiki.debian.org/wl) instead (not tested by me, though)
       + Installed from backports to work with 4.x kernel
     - linux-image-amd64 (>= 4.1+66, from jessie-backports)
       + With this newer kernel audio works completely (including microphone)
