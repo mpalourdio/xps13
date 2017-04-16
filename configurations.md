@@ -18,18 +18,16 @@ rest. BIOS are listed from the most recent to the oldest
   * [HiDPI tweaks](HiDPI)
   * Dell D3100 docking station -> DisplayLink drivers v1.3.52
   
-# A07
-
-##CONFIG #A07_01 (by [@timwienk](https://github.com/timwienk))
+##CONFIG #A11_02 (by [@timwienk](https://github.com/timwienk))
   * Model: XPS 13 9343-6782 (Core i7-5600U, FullHD non-touchscreen, Intel 7265 Wifi)
-  * Distribution: Debian Jessie 8.3
+  * Distribution: Debian Jessie 8.7
   * Boot mode: UEFI
-  * Kernel: 4.3.3-7~bpo8+1 (2016-01-19)
+  * Kernel: 4.9.18-1~bpo8+1 (2017-04-10)
   * Kernel Parameters: None
   * Patches: No patches applied manually
   * Specific packages used:
     - firmware-iwlwifi (>= 20151018, from jessie-backports, non-free) - [wiki page](https://wiki.debian.org/iwlwifi)
-      + *Note:* Models with broadcom card have no use for these drivers, look at [this page](https://wiki.debian.org/wl) instead (not tested by me, though)
+      + *Note:* Models with broadcom card have no use for these drivers, look at [this page for Debian](https://wiki.debian.org/wl) or [this page for Ubuntu](https://help.ubuntu.com/community/WifiDocs/Driver/bcm43xx) instead
       + Installed from backports to work with 4.x kernel
     - linux-image-amd64 (>= 4.1+66, from jessie-backports)
       + With this newer kernel audio works completely (including microphone)
@@ -37,9 +35,9 @@ rest. BIOS are listed from the most recent to the oldest
     - xserver-xorg-video-intel (>= 2:2.99, from jessie-backports)
       + This newer version is required for DRI to work with the broadwell CPU
   * Config files:
-    - Swap HDA devices: [/etc/modprobe.d/intel-hda.conf](A07_01/intel-hda.conf)
-    - Blacklist psmouse: [/etc/modprobe.d/psmouse-blacklist.conf](A07_01/psmouse-blacklist.conf)
-    - User specific xsession (with touchpad settings): [~/.xsession](A07_01/.xsession)
+    - Swap HDA devices: [/etc/modprobe.d/intel-hda.conf](A11_02/intel-hda.conf)
+    - Blacklist psmouse: [/etc/modprobe.d/psmouse-blacklist.conf](A11_02/psmouse-blacklist.conf)
+    - User specific xsession (with touchpad settings): [~/.xsession](A11_02/.xsession)
   * Untested:
     - Bluetooth
     - Actual DisplayPort output (only tested with HDMI adapter)
