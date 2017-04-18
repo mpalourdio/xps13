@@ -40,10 +40,10 @@ BIOS A11 is [out](http://www.dell.com/support/home/fr/fr/frbsdt1/Drivers/Drivers
 
 ## DELL patches/firmwares/drivers
 
-* [QHD Patch to disable automatic adaptative brightness] (https://drive.google.com/file/d/0BwSnIxxl4kxkbXdSX2FkNE5OR1E/view?pli=1) - Installs under windows only :worried:
-* [Touchpad firmware A00] (http://downloads.dell.com/FOLDER02883019M/1/9343_Firmware_T792T_WN32_18.1.48_A00.EXE) - Installs under windows only :worried:
-* [XPS13 2015 drivers page] (http://www.dell.com/support/home/us/en/04/product-support/product/xps-13-9343-laptop/drivers)
-* [DisplayLink Ubuntu drivers] (http://www.displaylink.com/downloads/ubuntu.php) - Make Dell D3000, D3100 docks & DA100 external video adapter compatible
+* [QHD Patch to disable automatic adaptative brightness](https://drive.google.com/file/d/0BwSnIxxl4kxkbXdSX2FkNE5OR1E/view?pli=1) - Installs under windows only :worried:
+* [Touchpad firmware A00](http://downloads.dell.com/FOLDER02883019M/1/9343_Firmware_T792T_WN32_18.1.48_A00.EXE) - Installs under windows only :worried:
+* [XPS13 2015 drivers page](http://www.dell.com/support/home/us/en/04/product-support/product/xps-13-9343-laptop/drivers)
+* [DisplayLink Ubuntu drivers](http://www.displaylink.com/downloads/ubuntu.php) - Make Dell D3000, D3100 docks & DA100 external video adapter compatible
 
 ## Current Situation
 
@@ -67,14 +67,13 @@ Anyway, you should upgrade BIOS to the latest version (at your own risk!). To up
 ## Other Resources
 
 * [DELL Sputnik project on Launchpad](https://bugs.launchpad.net/dell-sputnik) (list of bugs known to both DELL and Canonical)
-* [major.io website] (https://major.io/2015/02/03/linux-support-dell-xps-13-9343-2015-model/) ([@major] (https://github.com/major))
-* [Barton's blog last update, announcing BIOS A01] (http://bartongeorge.net/2015/02/23/update-2-dell-xps-13-laptop-developer-edition-sputnik-gen-4/)
+* [major.io website](https://major.io/2015/02/03/linux-support-dell-xps-13-9343-2015-model/) ([@major](https://github.com/major))
+* [Barton's blog last update, announcing BIOS A01](http://bartongeorge.net/2015/02/23/update-2-dell-xps-13-laptop-developer-edition-sputnik-gen-4/)
 * [Installing ubuntu 14.04 on the new Dell XPS 13](http://forthescience.org/blog/2015/04/21/installing_ubuntu_14_04_on_the_new_dell_xps_13_v2)
-* [Promising patches from Matthew Garret about reducing power consumption on Haswell and Broadwell systems] (https://mjg59.dreamwidth.org/34868.html)
-* [ArchWiki dedicated to Dell XPS 13 (2015)] (https://wiki.archlinux.org/index.php/Dell_XPS_13_%282015%29)
-* [DebianOn documentation on the Dell XPS 13 9343 (Early 2015)] (https://wiki.debian.org/InstallingDebianOn/Dell/Dell%20XPS%2013%209343)
-* [Install Ubuntu 15.04 on the Dell XPS 13 9343 (2015): A complete guide]
-(http://hgdev.co/installing-ubuntu-15-04-on-the-dell-xps-13-9343-2015-a-complete-guide-update/)
+* [Promising patches from Matthew Garret about reducing power consumption on Haswell and Broadwell systems](https://mjg59.dreamwidth.org/34868.html)
+* [ArchWiki dedicated to Dell XPS 13 (2015)](https://wiki.archlinux.org/index.php/Dell_XPS_13_%282015%29)
+* [DebianOn documentation on the Dell XPS 13 9343 (Early 2015)](https://wiki.debian.org/InstallingDebianOn/Dell/Dell%20XPS%2013%209343)
+* [Install Ubuntu 15.04 on the Dell XPS 13 9343 (2015): A complete guide](http://hgdev.co/installing-ubuntu-15-04-on-the-dell-xps-13-9343-2015-a-complete-guide-update/)
 * [Repository of issues with the XPS 13 (2015) Developer Edition](https://github.com/advancingu/XPS13Linux/issues)
 
 IRC: #xps13 (freenode)
