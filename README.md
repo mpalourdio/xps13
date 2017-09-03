@@ -18,7 +18,8 @@ See the collected configurations [here](configurations.md) (ordered by BIOS vers
 ~~BIOS A08 is [out](http://www.dell.com/support/Home/us/en/19/Drivers/DriversDetails?driverId=KTW00)~~   
 ~~BIOS A09 is [out](http://www.dell.com/support/home/us/en/04/Drivers/DriversDetails?driverId=MNWHN)~~  
 ~~BIOS A11 is [out](http://www.dell.com/support/home/fr/fr/frbsdt1/Drivers/DriversDetails?driverId=MYXCY)~~  
-BIOS A12 is [out](http://www.dell.com/support/Home/us/en/19/Drivers/DriversDetails?driverId=W57K8)
+~~BIOS A12 is [out](http://www.dell.com/support/Home/us/en/19/Drivers/DriversDetails?driverId=W57K8)~~  
+BIOS A13 is [out](http://www.dell.com/support/Home/us/en/19/Drivers/DriversDetails?driverId=5K69V)
 
 - Fixed CPU capped at 0.48GHz after resume from sleep with dell power companion.
 - Fixed touchpad may sometimes freeze in Setup and OS.
