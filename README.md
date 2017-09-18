@@ -22,6 +22,7 @@ See the collected configurations [here](configurations.md) (ordered by BIOS vers
 BIOS A13 is [out](http://www.dell.com/support/Home/us/en/19/Drivers/DriversDetails?driverId=5K69V)
 
 >After downloading a BIOS `.exe` file from one of the links above, you can install the update by copying the `.exe` file to `/boot/efi`. Alternatively, you may install the update via a USB device:
+ 0. Download and **verify the checksum**.
  1. Copy the downloaded file to a USB flash device. It does not need to be bootable.
  2. Insert the USB flash device into any USB port.
  3. Power on the system.
