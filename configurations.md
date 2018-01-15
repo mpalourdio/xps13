@@ -3,6 +3,40 @@
 Configurations are organised by BIOS, since it has impact on all the
 rest. BIOS are listed from the most recent to the oldest
 
+# A14
+
+## CONFIG #A14_01 (by [@timwienk](https://github.com/timwienk))
+  * Model: XPS 13 9343-6782 (Core i7-5600U, FullHD non-touchscreen, Intel 7265 Wifi)
+  * Distribution: Debian Stretch 9.3
+  * Boot mode: UEFI
+  * Kernel: 4.14.7-1~bpo9+1 (2017-12-22)
+  * Kernel Parameters: None
+  * Patches: No patches applied manually
+  * Specific packages used:
+    - firmware-iwlwifi (>= 20151018, non-free) - [wiki page](https://wiki.debian.org/iwlwifi)
+      + *Note:* Models with broadcom card have no use for these drivers, look at [this page for Debian](https://wiki.debian.org/wl) or [this page for Ubuntu](https://help.ubuntu.com/community/WifiDocs/Driver/bcm43xx) instead
+      + Install from [backports](https://backports.debian.org/Instructions) when using Debian Jessie 8.x
+  * Specific packages used for Debian Jessie 8.x only (from [backports](https://backports.debian.org/Instructions)):
+    - linux-image-amd64 (>= 4.1+66)
+      + With this newer kernel audio works completely (including microphone)
+      + Audio still in HDA mode (if used in I2C mode on previous boot (i.e. in Windows), an extra cold boot is needed after booting once to switch to HDA)
+    - xserver-xorg-video-intel (>= 2:2.99)
+      + This newer version is required for DRI to work with the broadwell CPU
+  * Config files:
+    - Swap HDA devices: [/etc/modprobe.d/intel-hda.conf](A14_01/intel-hda.conf)
+    - Blacklist psmouse: [/etc/modprobe.d/psmouse-blacklist.conf](A14_01/psmouse-blacklist.conf)
+    - User specific xsession (with touchpad settings): [~/.xsession](A14_01/.xsession)
+  * Untested:
+    - Bluetooth
+    - Actual DisplayPort output (only tested with HDMI adapter)
+  * Known issues:
+    - No palm detection on touchpad with "synaptics" or "multitouch" drivers, "libinput" (on Debian Stretch) does a better job
+      + *Note:* When "xserver-xorg-input-synaptics" and/or "xserver-xorg-input-multitouch" are installed, default configuration prefers these over "libinput"
+  * Other accessories used:
+    - Dell 470-ABBT, USB 3 to Ethernet adapter (rtl8153 chip, works out of the box)
+    - Dell 470-13629, Mini DisplayPort to HDMI adapter (works out of the box)
+    - Dell 460-BBGZ, Padded sleeve with pocket (officially for 12" Dell notebooks, pocket used for accessories + charger, fits perfectly)
+
 
 # A11
 
@@ -18,36 +52,6 @@ rest. BIOS are listed from the most recent to the oldest
   * Blacklist psmouse : [psmouse-blacklist.conf](A11_01/psmouse-blacklist.conf)
   * [HiDPI tweaks](HiDPI)
   * Dell D3100 docking station -> DisplayLink drivers v1.3.52
-
-## CONFIG #A11_02 (by [@timwienk](https://github.com/timwienk))
-  * Model: XPS 13 9343-6782 (Core i7-5600U, FullHD non-touchscreen, Intel 7265 Wifi)
-  * Distribution: Debian Jessie 8.7
-  * Boot mode: UEFI
-  * Kernel: 4.9.18-1~bpo8+1 (2017-04-10)
-  * Kernel Parameters: None
-  * Patches: No patches applied manually
-  * Specific packages used:
-    - firmware-iwlwifi (>= 20151018, from jessie-backports, non-free) - [wiki page](https://wiki.debian.org/iwlwifi)
-      + *Note:* Models with broadcom card have no use for these drivers, look at [this page for Debian](https://wiki.debian.org/wl) or [this page for Ubuntu](https://help.ubuntu.com/community/WifiDocs/Driver/bcm43xx) instead
-      + Installed from backports to work with 4.x kernel
-    - linux-image-amd64 (>= 4.1+66, from jessie-backports)
-      + With this newer kernel audio works completely (including microphone)
-      + Audio still in HDA mode (if used in I2C mode on previous boot (i.e. in Windows), an extra cold boot is needed after booting once to switch to HDA)
-    - xserver-xorg-video-intel (>= 2:2.99, from jessie-backports)
-      + This newer version is required for DRI to work with the broadwell CPU
-  * Config files:
-    - Swap HDA devices: [/etc/modprobe.d/intel-hda.conf](A11_02/intel-hda.conf)
-    - Blacklist psmouse: [/etc/modprobe.d/psmouse-blacklist.conf](A11_02/psmouse-blacklist.conf)
-    - User specific xsession (with touchpad settings): [~/.xsession](A11_02/.xsession)
-  * Untested:
-    - Bluetooth
-    - Actual DisplayPort output (only tested with HDMI adapter)
-  * Known issues:
-    - No palm detection on touchpad
-  * Other accessories used:
-    - Dell 470-ABBT, USB 3 to Ethernet adapter (rtl8153 chip, works out of the box)
-    - Dell 470-13629, Mini DisplayPort to HDMI adapter (works out of the box)
-    - Dell 460-BBGZ, Padded sleeve with pocket (officially for 12" Dell notebooks, pocket used for accessories + charger, fits perfectly)
 
 
 # A06
