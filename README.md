@@ -20,7 +20,7 @@ See the collected configurations [here](configurations.md) (ordered by BIOS vers
 ~~BIOS A11 is [out](http://www.dell.com/support/home/fr/fr/frbsdt1/Drivers/DriversDetails?driverId=MYXCY)~~  
 ~~BIOS A12 is [out](http://www.dell.com/support/Home/us/en/19/Drivers/DriversDetails?driverId=W57K8)~~  
 ~~BIOS A13 is [out](http://www.dell.com/support/Home/us/en/19/Drivers/DriversDetails?driverId=5K69V)~~  
-BIOS A14 is [out](http://www.dell.com/support/Home/us/en/19/Drivers/DriversDetails?driverId=43Y56)
+~~BIOS A14 is [out](http://www.dell.com/support/Home/us/en/19/Drivers/DriversDetails?driverId=43Y56)~~ => removed See this [post](https://github.com/mpalourdio/xps13/issues/103#issuecomment-367957009)
 
 >After downloading a BIOS `.exe` file from one of the links above, you can install the update by copying the `.exe` file to `/boot/efi`. Alternatively, you may install the update via a USB device:
  0. Download and **verify the checksum**.
