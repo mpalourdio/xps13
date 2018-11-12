@@ -8,4 +8,4 @@ TTY are hardly readable. To increase font-size, do the following :
  
 Changes will be ok and permanent at next reboot.
 
-More informations [here] (http://askubuntu.com/questions/173220/how-do-i-change-the-font-or-the-font-size-in-the-tty-console)
+More informations [here](http://askubuntu.com/questions/173220/how-do-i-change-the-font-or-the-font-size-in-the-tty-console)
