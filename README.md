@@ -24,7 +24,8 @@ See the collected configurations [here](configurations.md) (ordered by BIOS vers
 ~~BIOS A15 is [out](http://www.dell.com/support/Home/us/en/19/Drivers/DriversDetails?driverId=RTNYC)~~  
 ~~BIOS A17 is [out](https://www.dell.com/support/Home/ue/en/brbsdt1/Drivers/DriversDetails?driverId=X45GJ)~~ => removed. See this [post](https://github.com/mpalourdio/xps13/issues/105#issuecomment-408702876)  
 ~~BIOS A18 is [out](https://www.dell.com/support/home/us/en/sebsdt1/drivers/driversdetails?driverId=RR83R)~~  
-BIOS A19 is [out](https://www.dell.com/support/home/en/en/nlbsdt1/drivers/driversdetails?driverid=TRF18)
+~~BIOS A19 is [out](https://www.dell.com/support/home/en/en/nlbsdt1/drivers/driversdetails?driverid=TRF18)~~  
+BIOS A20 is [out](https://www.dell.com/support/home/en/en/nlbsdt1/drivers/driversdetails?driverid=W5C0W)
 
 >After downloading a BIOS `.exe` file from one of the links above, you can install the update by copying the `.exe` file to `/boot/efi`. Alternatively, you may install the update via a USB device:
  0. Download and **verify the checksum**.
