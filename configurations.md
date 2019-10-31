@@ -3,13 +3,13 @@
 Configurations are organised by BIOS, since it has impact on all the
 rest. BIOS are listed from the most recent to the oldest
 
-# A19
+# A20
 
-## CONFIG #A19_01 (by [@timwienk](https://github.com/timwienk))
+## CONFIG #A20_01 (by [@timwienk](https://github.com/timwienk))
   * Model: XPS 13 9343-6782 (Core i7-5600U, FullHD non-touchscreen, Intel 7265 Wifi)
-  * Distribution: Debian Stretch 9.8
+  * Distribution: Debian Buster 10.1
   * Boot mode: UEFI
-  * Kernel: 4.19.16-1~bpo9+1 (2019-02-07)
+  * Kernel: 4.19.67-2+deb10u1 (2019-09-20)
   * Kernel Parameters: None
   * Patches: No patches applied manually
   * Specific packages used:
@@ -23,14 +23,14 @@ rest. BIOS are listed from the most recent to the oldest
     - xserver-xorg-video-intel (>= 2:2.99)
       + This newer version is required for DRI to work with the broadwell CPU
   * Config files:
-    - Swap HDA devices: [/etc/modprobe.d/intel-hda.conf](A19_01/intel-hda.conf)
-    - Blacklist psmouse: [/etc/modprobe.d/psmouse-blacklist.conf](A19_01/psmouse-blacklist.conf)
-    - User specific xsession (with touchpad settings): [~/.xsession](A19_01/.xsession)
+    - Swap HDA devices: [/etc/modprobe.d/intel-hda.conf](A20_01/intel-hda.conf)
+    - Blacklist psmouse: [/etc/modprobe.d/psmouse-blacklist.conf](A20_01/psmouse-blacklist.conf)
+    - User specific xsession (with touchpad settings): [~/.xsession](A20_01/.xsession)
   * Untested:
     - Bluetooth
     - Actual DisplayPort output (only tested with HDMI adapter)
   * Known issues:
-    - No palm detection on touchpad with "synaptics" or "multitouch" drivers, "libinput" (on Debian Stretch) does a better job
+    - No palm detection on touchpad with "synaptics" or "multitouch" drivers, "libinput" (on Debian Stretch and Buster) does a better job
       + *Note:* When "xserver-xorg-input-synaptics" and/or "xserver-xorg-input-multitouch" are installed, default configuration prefers these over "libinput"
   * Other accessories used:
     - Dell 470-ABBT, USB 3 to Ethernet adapter (rtl8153 chip, works out of the box)
