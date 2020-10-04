@@ -7,9 +7,9 @@ rest. BIOS are listed from the most recent to the oldest
 
 ## CONFIG #A20_01 (by [@timwienk](https://github.com/timwienk))
   * Model: XPS 13 9343-6782 (Core i7-5600U, FullHD non-touchscreen, Intel 7265 Wifi)
-  * Distribution: Debian Buster 10.1
+  * Distribution: Debian Buster 10.6
   * Boot mode: UEFI
-  * Kernel: 4.19.67-2+deb10u1 (2019-09-20)
+  * Kernel: 4.19.146-1 (2020-09-17)
   * Kernel Parameters: None
   * Patches: No patches applied manually
   * Specific packages used:
